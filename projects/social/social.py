@@ -1,3 +1,6 @@
+import random
+import math
+
 class User:
     def __init__(self, name):
         self.name = name
@@ -40,13 +43,34 @@ class SocialGraph:
         """
         # Reset graph
         self.last_id = 0
-        self.users = {}
-        self.friendships = {}
-        # !!!! IMPLEMENT ME
+        self.users = { i for i in range(num_users) }
+        self.friendships = { i:set() for i in range(num_users) }
 
-        # Add users
+        # Probability
+        log_prob = math.log(1.0 - avg_friendships/num_users)
 
-        # Create friendships
+        # This is an implementation of ALG. 1 from http://vlado.fmf.uni-lj.si/pub/networks/doc/ms/rndgen.pdf
+        # Nodes in graph are from 0,n-1 (start with u2 as the second node index).
+        u1 = -1
+        u2 = 1
+        while u2 < num_users:
+            log_rand = math.log(1.0 - random.random())
+            # At every step, a random number is added to u1 and that new number is
+            # added to the friendship. This number is sized so the probability of
+            # a friend is ~ avg_friendships/num_users. If num_users was 1000 and
+            # avg_friendships was 5, then int(log_rand/log_prob) would be about
+            # 1000/5 = 200, on average.
+            u1 = u1 + 1 + int(log_rand/log_prob)
+            while u1 >= u2 and u2 < num_users:
+                u1 = u1 - u2
+                # u2 is incremented here to avoid potentially over-sampling nodes.
+                # A later node has many opertunities to be friends with a newer
+                # one; this skips older nodes roughly in proportion to their
+                # likelihood of being oversampled.
+                u2 = u2 + 1
+            if u2 < num_users:
+                self.add_friendship(u2, u1)
+
 
     def get_all_social_paths(self, user_id):
         """
@@ -57,8 +81,17 @@ class SocialGraph:
 
         The key is the friend's ID and the value is the path.
         """
-        visited = {}  # Note that this is a dictionary, not a set
-        # !!!! IMPLEMENT ME
+        visited = {user_id:[user_id]}
+        
+        stack = [[user_id]]
+
+        while stack != []:
+            stack = [ path + [f] for path in stack
+                                 for f in self.friendships[path[-1]]
+                                 if f not in visited ]
+            for path in stack:
+                visited[path[-1]] = path
+
         return visited
 
 

@@ -29,6 +29,63 @@ player = Player(world.starting_room)
 # traversal_path = ['n', 'n']
 traversal_path = []
 
+traversal_graph = { player.current_room.id : { k:'?' for k in player.current_room.get_exits() } }
+
+def go_in_direction(d):
+    old_room = player.current_room
+    player.travel(d)
+    traversal_graph[old_room.id][d] = player.current_room.id
+    if player.current_room.id not in traversal_graph:
+        traversal_graph[player.current_room.id] = { k:'?' for k in player.current_room.get_exits() }
+    traversal_path.append(d)
+
+def find_path_to_unknown_depth_first():
+    exhausted = {player.current_room.id}
+
+    potential_path = [('', player.current_room.id)]
+
+    while potential_path != [] and potential_path[-1][1] != '?':
+      next_vertices = [ (d, id) for d, id in traversal_graph[potential_path[-1][1]].items()
+                         if (d, id) not in potential_path and id not in exhausted ]
+      if next_vertices == []:
+        exhausted.add(potential_path[-1][1])
+        potential_path.pop()
+      else:
+        potential_path.append(next_vertices[0])
+
+      if potential_path == []:
+        return None
+
+    return [ d for d, id in potential_path ][1:]
+
+def find_path_to_unknown_bredth_first():
+    seen = {player.current_room.id}
+
+    potential_paths = [[('', player.current_room.id)]]
+
+    while potential_paths != [] and '?' not in {p[-1][1] for p in potential_paths}:
+        potential_paths = [ p + [(d, e)] for p in potential_paths
+                                    for d, e in traversal_graph[p[-1][1]].items()
+                                    if e not in seen ]
+        seen = seen.union({p[-1][1] for p in potential_paths})
+
+    if potential_paths == []:
+        return None
+
+    return_path = [ p for p in potential_paths if p[-1][1] == '?' ][-1]
+
+    return [ d for d, id in return_path ][1:]
+
+def take_path_to_unknown():
+    path = find_path_to_unknown_bredth_first()
+    if path == []:
+        return None
+
+    for d in path:
+        go_in_direction(d)
+
+while len(traversal_graph) != 500:
+    take_path_to_unknown()
 
 
 # TRAVERSAL TEST
