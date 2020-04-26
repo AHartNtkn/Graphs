@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     46552,        834]
-NotebookOptionsPosition[     45055,        804]
-NotebookOutlinePosition[     45486,        821]
-CellTagsIndexPosition[     45443,        818]
+NotebookDataLength[    165555,       3043]
+NotebookOptionsPosition[    163905,       3010]
+NotebookOutlinePosition[    164334,       3027]
+CellTagsIndexPosition[    164291,       3024]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -531,32 +531,2239 @@ Cell[BoxData[
        RowBox[{"262", "\[UndirectedEdge]", "390"}], ",", 
        RowBox[{"390", "\[UndirectedEdge]", "398"}], ",", 
        RowBox[{"398", "\[UndirectedEdge]", "487"}]}], "}"}]}], "]"}]}], 
-  ";"}]], "Input",ExpressionUUID->"77336712-4a07-4715-b064-bb67b1665537"],
+  ";"}]], "Input",
+ CellLabel->"In[1]:=",ExpressionUUID->"77336712-4a07-4715-b064-bb67b1665537"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"GraphPlot", "[", 
   RowBox[{"dungeon", ",", 
    RowBox[{"VertexLabels", "\[Rule]", "\"\<Name\>\""}]}], "]"}]], "Input",
- CellChangeTimes->{{3.796849685333067*^9, 
-  3.796849685481661*^9}},ExpressionUUID->"1e967cf6-ce8e-4329-bee9-\
-b8b874eb2308"],
+ CellChangeTimes->{{3.796849685333067*^9, 3.796849685481661*^9}},
+ CellLabel->
+  "In[113]:=",ExpressionUUID->"1e967cf6-ce8e-4329-bee9-b8b874eb2308"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Hue[0.6, 0.7, 0.5], Opacity[0.7], LineBox[CompressedData["
+1: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
+WAqwT/ZWUXipKNKjrTVN8VeWWYJVx7P2L5ZyiO/XctHvk7KETSYmTa77ZdF6
+c9akp9w77ATTpQIj7YK6iN9nrdoeGeAEUurChUcDdZFf2EtY7zX9ngbv9Qhx
+p+3xvMqP/0/mqdrCvOqF4jpnBpq3Njs2j8b/WwveB6M9v1qJIX5s45On/6rX
+gky4utfYc0mkd1I7oK+dYAeSXMXSV4R0Ub3bb7FRk/quAylXD2aF0eTQeWFZ
+8/aDY0KmUMI6wrNSzhLxGzZujzsumUAb92O7nlG8X//w8y7+a8yhY0ig/Mkp
+S9SPT+SrLxlutQFPpUZnB1M1xDkhDRp9x23gzTGNnZ0/VdF5gybep3GDYgNj
+7KPe8e/NUD28y9zx1PkOgIHpEwW6vQjimcvnvK5fBTDulNcdaRRE36veZcUH
+vPvOBg93plbIAVM076+NU1QiI3Sh/VzIjs88WkhPNT8Ov3M1UoNkfrt973bJ
+Ir0KuDV9s3spB3S1C41+iVPR/RPZdmNsQVX4meIQrewnhbi2mfAN4UQVKN20
+vuF3sgzyKxuv27Oir1vAkZfjkqMaskiPXfWnu16GcuCOWydNbosR4t9/Xqeq
+eXFA6RZlwGSUgvp1mJT6sgA4EH5qW1tmlA7yg3f1CLkHjlpDs9dAo+wmOrrf
+MEsh/nwEB8rlBh7x6WgjbhzDX9sbwwE5lYvvbL10UD0TAhttApfZwb3k+Qe6
+Q5hnK+WIPLW3g14H01BSuQ6qVz2B9X2ccWO4VrCR/0EtA/Vj1IGs4hvEhToz
+fVWUEIN5zZUj8TkaNCh8ZDKXV81A+bLaVWX6bEwZ+k43JorHiCG9Zv2JdUyR
+NoMbGXrmq3ll0Hp6FF3lDBjGEJRqxst3jon0ahN7yY0cJUtY73ao2venDNLL
+L9HjPilkG0gxffg6rkIRzTMronWe83JlIHk090mJE1G/ntnUL5/jYA4l9leJ
+ic3YTw/q/qgujzSD0IRdxKf/WaLn2WwuccqmEkBDnvJYVJSI+AmPyXsmRCW4
+EkGIzDlCRPPwhK5CuEopG1TiL60+XEhFevVt9kRwkDgJoruu2kbUyyD+oVj7
+mVqsDhg9kVcvsZBF6+kjZU7pzMnCXY0Rzz/SeD0zt93Yn7yJcNL3slzcJyLy
+gzM9eWvUeClAfm5fuovPAp3XQn5ZJ125y4LZbsXRMk9LxE98k66rOcCC8H13
+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
+37yXvigV/6X/D2Q0Dw4=
+     "]]}, 
+   {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[
+    0.7]}], {DiskBox[{30.839673189483896, 21.567447937487984}, 
+      0.125905348724952], 
+     InsetBox["0", Offset[{2, 2}, {30.96557853820885, 21.693353286212936}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{32.66063151329309, 22.656441246439744}, 0.125905348724952], 
+     InsetBox["1", Offset[{2, 2}, {32.78653686201804, 22.782346595164697}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{30.910420258295026, 24.821866241761015}, 0.125905348724952], 
+     InsetBox["2", Offset[{2, 2}, {31.03632560701998, 24.947771590485967}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{29.05653656832913, 20.4801396816017}, 0.125905348724952], 
+     InsetBox["3", Offset[{2, 2}, {29.18244191705408, 20.60604503032665}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{30.78534076596584, 21.314453529777765}, 0.125905348724952], 
+     InsetBox["4", Offset[{2, 2}, {30.911246114690794, 21.440358878502717}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{29.184894184262003, 26.977370069475477}, 0.125905348724952], 
+     InsetBox["5", Offset[{2, 2}, {29.310799532986955, 27.10327541820043}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.40708960523496, 27.424905096352916}, 0.125905348724952], 
+     InsetBox["6", Offset[{2, 2}, {27.532994953959914, 27.550810445077868}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{35.505361142395834, 21.44519282115347}, 0.125905348724952], 
+     InsetBox["7", Offset[{2, 2}, {35.63126649112078, 21.57109816987842}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{30.476043965536704, 21.586993496244823}, 0.125905348724952], 
+     InsetBox["8", Offset[{2, 2}, {30.601949314261656, 21.712898844969775}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{37.51606436844809, 19.31097358379498}, 0.125905348724952], 
+     InsetBox["9", Offset[{2, 2}, {37.64196971717304, 19.43687893251993}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{30.616545763821918, 25.022606813045613}, 0.125905348724952], 
+     InsetBox["10", Offset[{2, 2}, {30.74245111254687, 25.148512161770565}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.501642625927282, 20.364101996754233}, 0.125905348724952], 
+     InsetBox["11", Offset[{2, 2}, {28.627547974652234, 20.490007345479185}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{37.01910538249636, 22.71025451302623}, 0.125905348724952], 
+     InsetBox["12", Offset[{2, 2}, {37.14501073122131, 22.83615986175118}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.53642212345388, 17.187535914496326}, 0.125905348724952], 
+     InsetBox["13", Offset[{2, 2}, {39.66232747217883, 17.31344126322128}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.344914555583756, 16.27833449155863}, 0.125905348724952], 
+     InsetBox["14", Offset[{2, 2}, {42.470819904308705, 16.404239840283584}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.36810029538573, 15.48234693477873}, 0.125905348724952], 
+     InsetBox["15", Offset[{2, 2}, {38.49400564411068, 15.608252283503683}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{30.181446695318662, 21.5879668577996}, 0.125905348724952], 
+     InsetBox["16", Offset[{2, 2}, {30.307352044043615, 21.713872206524552}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{45.13920912027098, 15.385573395204801}, 0.125905348724952], 
+     InsetBox["17", Offset[{2, 2}, {45.26511446899593, 15.511478743929754}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.31272055540361, 24.40199635301748}, 0.125905348724952], 
+     InsetBox["18", Offset[{2, 2}, {38.43862590412856, 24.527901701742433}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{37.20359657893773, 13.791898081367062}, 0.125905348724952], 
+     InsetBox["19", Offset[{2, 2}, {37.329501927662676, 13.917803430092015}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{37.22310990843905, 21.641554862740513}, 0.125905348724952], 
+     InsetBox["20", Offset[{2, 2}, {37.349015257164, 21.767460211465465}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.368834045670248, 19.391859759494512}, 0.125905348724952], 
+     InsetBox["21", Offset[{2, 2}, {27.4947393943952, 19.517765108219464}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{32.42938487279137, 22.770355196508916}, 0.125905348724952], 
+     InsetBox["22", Offset[{2, 2}, {32.555290221516316, 22.89626054523387}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{26.091942469086323, 27.62324188988699}, 0.125905348724952], 
+     InsetBox["23", Offset[{2, 2}, {26.217847817811275, 27.749147238611943}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.683902510401836, 26.018304036640778}, 0.125905348724952], 
+     InsetBox["24", Offset[{2, 2}, {38.809807859126785, 26.14420938536573}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.10690364321453, 27.585282176779053}, 0.125905348724952], 
+     InsetBox["25", Offset[{2, 2}, {39.23280899193948, 27.711187525504005}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{37.53180506824602, 20.576821300224605}, 0.125905348724952], 
+     InsetBox["26", Offset[{2, 2}, {37.65771041697097, 20.702726648949557}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{37.821415554173456, 19.516505183974324}, 0.125905348724952], 
+     InsetBox["27", Offset[{2, 2}, {37.947320902898404, 19.642410532699277}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.541418766071565, 15.755115599739426}, 0.125905348724952], 
+     InsetBox["28", Offset[{2, 2}, {47.667324114796514, 15.881020948464379}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.49380478278161, 26.331631060175837}, 0.125905348724952], 
+     InsetBox["29", Offset[{2, 2}, {38.61971013150656, 26.45753640890079}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.83391549368129, 15.726942374816177}, 0.125905348724952], 
+     InsetBox["30", Offset[{2, 2}, {47.95982084240624, 15.85284772354113}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{36.80990956551501, 21.669003865417825}, 0.125905348724952], 
+     InsetBox["31", Offset[{2, 2}, {36.935814914239955, 21.794909214142777}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{37.06092999148956, 13.533596921974553}, 0.125905348724952], 
+     InsetBox["32", Offset[{2, 2}, {37.18683534021451, 13.659502270699505}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{45.378735126899414, 15.256246790009104}, 0.125905348724952], 
+     InsetBox["33", Offset[{2, 2}, {45.50464047562436, 15.382152138734057}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.72343715411397, 24.988308611356636}, 0.125905348724952], 
+     InsetBox["34", Offset[{2, 2}, {39.849342502838915, 25.11421396008159}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.91551970332602, 25.748808330042703}, 0.125905348724952], 
+     InsetBox["35", Offset[{2, 2}, {41.04142505205097, 25.874713678767655}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{25.691099349310996, 18.323204873228402}, 0.125905348724952], 
+     InsetBox["36", Offset[{2, 2}, {25.817004698035948, 18.449110221953354}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{36.369908018214154, 21.67844003574633}, 0.125905348724952], 
+     InsetBox["37", Offset[{2, 2}, {36.4958133669391, 21.804345384471283}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{30.37062344282356, 25.184965553046233}, 0.125905348724952], 
+     InsetBox["38", Offset[{2, 2}, {30.496528791548513, 25.310870901771185}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.39703805911049, 24.707854904473557}, 0.125905348724952], 
+     InsetBox["39", Offset[{2, 2}, {40.52294340783544, 24.83376025319851}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{36.05143415978256, 12.12783334609464}, 0.125905348724952], 
+     InsetBox["40", Offset[{2, 2}, {36.17733950850751, 12.253738694819592}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{24.01400441012285, 17.265977481786216}, 0.125905348724952], 
+     InsetBox["41", Offset[{2, 2}, {24.139909758847804, 17.391882830511168}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{36.084063641577416, 21.381304217113506}, 0.125905348724952], 
+     InsetBox["42", Offset[{2, 2}, {36.209968990302364, 21.50720956583846}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.53696999727845, 29.14257245557843}, 0.125905348724952], 
+     InsetBox["43", Offset[{2, 2}, {39.662875346003396, 29.268477804303384}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.1081624959385, 26.48293922311767}, 0.125905348724952], 
+     InsetBox["44", Offset[{2, 2}, {42.23406784466345, 26.60884457184262}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{34.91068904139247, 10.491197732548532}, 0.125905348724952], 
+     InsetBox["45", Offset[{2, 2}, {35.03659439011742, 10.617103081273484}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.25648983976125, 13.680684292023724}, 0.125905348724952], 
+     InsetBox["46", Offset[{2, 2}, {46.3823951884862, 13.806589640748676}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.585959676952996, 16.109004783717797}, 0.125905348724952], 
+     InsetBox["47", Offset[{2, 2}, {42.711865025677945, 16.23491013244275}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{43.10889023882085, 27.263798400898725}, 0.125905348724952], 
+     InsetBox["48", Offset[{2, 2}, {43.2347955875458, 27.389703749623678}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.99256771530158, 30.643020143416578}, 0.125905348724952], 
+     InsetBox["49", Offset[{2, 2}, {40.11847306402653, 30.76892549214153}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.543421630770005, 29.191379559726087}, 0.125905348724952], 
+     InsetBox["50", Offset[{2, 2}, {28.669326979494958, 29.31728490845104}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{35.81280203601809, 21.11131022339232}, 0.125905348724952], 
+     InsetBox["51", Offset[{2, 2}, {35.93870738474304, 21.23721557211727}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.25466497866556, 24.54937482047184}, 0.125905348724952], 
+     InsetBox["52", Offset[{2, 2}, {40.38057032739051, 24.675280169196792}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{44.10725707880542, 28.005568885354243}, 0.125905348724952], 
+     InsetBox["53", Offset[{2, 2}, {44.23316242753037, 28.131474234079196}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.339966507808235, 26.58686903124405}, 0.125905348724952], 
+     InsetBox["54", Offset[{2, 2}, {38.465871856533184, 26.712774379969}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.0872500344468, 18.45612674206645}, 0.125905348724952], 
+     InsetBox["55", Offset[{2, 2}, {38.213155383171745, 18.5820320907914}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.346300525226084, 17.405010078923354}, 0.125905348724952], 
+     InsetBox["56", Offset[{2, 2}, {38.47220587395103, 17.530915427648306}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{24.817489634336557, 27.867241890404777}, 0.125905348724952], 
+     InsetBox["57", Offset[{2, 2}, {24.94339498306151, 27.99314723912973}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{25.823057858027962, 27.54581163651234}, 0.125905348724952], 
+     InsetBox["58", Offset[{2, 2}, {25.948963206752914, 27.671716985237293}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.73181459943303, 26.504710082966177}, 0.125905348724952], 
+     InsetBox["59", Offset[{2, 2}, {42.85771994815798, 26.63061543169113}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{49.921454136579854, 16.131047773033256}, 0.125905348724952], 
+     InsetBox["60", Offset[{2, 2}, {50.0473594853048, 16.256953121758208}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.866424835881794, 13.1318604030788}, 0.125905348724952], 
+     InsetBox["61", Offset[{2, 2}, {46.99233018460674, 13.257765751803753}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{26.227271336045618, 27.881491049617207}, 0.125905348724952], 
+     InsetBox["62", Offset[{2, 2}, {26.35317668477057, 28.00739639834216}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.89786151870932, 12.797081625176274}, 0.125905348724952], 
+     InsetBox["63", Offset[{2, 2}, {47.02376686743427, 12.922986973901226}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{52.30218638208056, 16.500168708057874}, 0.125905348724952], 
+     InsetBox["64", Offset[{2, 2}, {52.42809173080551, 16.626074056782826}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{25.047610005109725, 28.321325833865718}, 0.125905348724952], 
+     InsetBox["65", Offset[{2, 2}, {25.173515353834677, 28.44723118259067}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.782233919284657, 30.84674785158929}, 0.125905348724952], 
+     InsetBox["66", Offset[{2, 2}, {27.90813926800961, 30.97265320031424}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.67307827074804, 16.418052628077444}, 0.125905348724952], 
+     InsetBox["67", Offset[{2, 2}, {38.79898361947299, 16.543957976802396}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{24.53430897156963, 27.789032580847937}, 0.125905348724952], 
+     InsetBox["68", Offset[{2, 2}, {24.660214320294582, 27.91493792957289}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.362940640038882, 16.21641245164342}, 0.125905348724952], 
+     InsetBox["69", Offset[{2, 2}, {22.488845988763835, 16.342317800368374}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.489784405875536, 30.628003545509195}, 0.125905348724952], 
+     InsetBox["70", Offset[{2, 2}, {28.61568975460049, 30.753908894234147}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{41.07293902312593, 24.415864889038872}, 0.125905348724952], 
+     InsetBox["71", Offset[{2, 2}, {41.19884437185088, 24.541770237763824}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.71034727134505, 15.166109057037255}, 0.125905348724952], 
+     InsetBox["72", Offset[{2, 2}, {20.836252620070002, 15.292014405762208}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.11377587726009, 17.103719491205602}, 0.125905348724952], 
+     InsetBox["73", Offset[{2, 2}, {38.23968122598504, 17.229624839930555}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{35.936429466762895, 11.855016605304419}, 0.125905348724952], 
+     InsetBox["74", Offset[{2, 2}, {36.062334815487844, 11.980921954029371}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{45.0964579673235, 28.703684689303888}, 0.125905348724952], 
+     InsetBox["75", Offset[{2, 2}, {45.22236331604845, 28.82959003802884}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.7308688606945, 17.15923088394913}, 0.125905348724952], 
+     InsetBox["76", Offset[{2, 2}, {23.856774209419452, 17.285136232674084}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.478857505729664, 29.52808222624511}, 0.125905348724952], 
+     InsetBox["77", Offset[{2, 2}, {39.60476285445461, 29.653987574970063}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{45.92393309321931, 28.590895796976113}, 0.125905348724952], 
+     InsetBox["78", Offset[{2, 2}, {46.04983844194426, 28.716801145701066}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.214506376430265, 12.069016659957413}, 0.125905348724952], 
+     InsetBox["79", Offset[{2, 2}, {47.340411725155214, 12.194922008682365}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.979798308591434, 20.269136909639762}, 0.125905348724952], 
+     InsetBox["80", Offset[{2, 2}, {28.105703657316386, 20.395042258364715}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.77733201549964, 8.881672845596661}, 0.125905348724952], 
+     InsetBox["81", Offset[{2, 2}, {33.90323736422459, 9.007578194321614}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.480862949587745, 12.678074843882353}, 0.125905348724952], 
+     InsetBox["82", Offset[{2, 2}, {47.606768298312694, 12.803980192607305}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.49553654499601, 20.19814630841912}, 0.125905348724952], 
+     InsetBox["83", Offset[{2, 2}, {27.621441893720963, 20.32405165714407}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{38.97943272104434, 15.450672731265572}, 0.125905348724952], 
+     InsetBox["84", Offset[{2, 2}, {39.10533806976929, 15.576578079990524}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{34.81906612907823, 10.215311747092679}, 0.125905348724952], 
+     InsetBox["85", Offset[{2, 2}, {34.94497147780318, 10.341217095817631}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.262786034621215, 14.50471652116534}, 0.125905348724952], 
+     InsetBox["86", Offset[{2, 2}, {39.38869138334616, 14.630621869890293}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.446323213748435, 32.02203752773737}, 0.125905348724952], 
+     InsetBox["87", Offset[{2, 2}, {28.572228562473388, 32.14794287646232}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{45.62210368095607, 29.650992030866544}, 0.125905348724952], 
+     InsetBox["88", Offset[{2, 2}, {45.74800902968102, 29.776897379591496}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{19.07367243243819, 14.113672580946222}, 0.125905348724952], 
+     InsetBox["89", Offset[{2, 2}, {19.199577781163143, 14.239577929671174}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.75106287970873, 28.525234914410014}, 0.125905348724952], 
+     InsetBox["90", Offset[{2, 2}, {46.87696822843368, 28.651140263134966}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{36.152967555475655, 21.987026014215665}, 0.125905348724952], 
+     InsetBox["91", Offset[{2, 2}, {36.278872904200604, 22.112931362940618}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{32.38864361580139, 8.30094076439548}, 0.125905348724952], 
+     InsetBox["92", Offset[{2, 2}, {32.51454896452634, 8.426846113120432}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{35.5798806817271, 20.89973237763562}, 0.125905348724952], 
+     InsetBox["93", Offset[{2, 2}, {35.705786030452046, 21.02563772636057}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.592859498173247, 28.150159539453366}, 0.125905348724952], 
+     InsetBox["94", Offset[{2, 2}, {23.7187648468982, 28.27606488817832}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.51477800385356, 13.607530581565701}, 0.125905348724952], 
+     InsetBox["95", Offset[{2, 2}, {39.640683352578506, 13.733435930290653}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.04609593965536, 32.49629443531051}, 0.125905348724952], 
+     InsetBox["96", Offset[{2, 2}, {27.17200128838031, 32.62219978403546}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.517233602739587, 28.549312617987468}, 0.125905348724952], 
+     InsetBox["97", Offset[{2, 2}, {22.64313895146454, 28.67521796671242}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.28322658236358, 28.170404237989892}, 0.125905348724952], 
+     InsetBox["98", Offset[{2, 2}, {47.40913193108853, 28.296309586714845}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.070889863451782, 20.137466213834553}, 0.125905348724952], 
+     InsetBox["99", Offset[{2, 2}, {27.196795212176735, 20.263371562559506}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{32.203554330753974, 8.05433681169866}, 0.125905348724952], 
+     InsetBox["100", Offset[{2, 2}, {32.32945967947892, 8.180242160423612}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{35.955971457565255, 22.21889148654814}, 0.125905348724952], 
+     InsetBox["101", Offset[{2, 2}, {36.081876806290204, 22.344796835273094}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{52.61851900875832, 16.1582013398216}, 0.125905348724952], 
+     InsetBox["102", Offset[{2, 2}, {52.74442435748327, 16.28410668854655}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{45.79621268252226, 29.934418723946333}, 0.125905348724952], 
+     InsetBox["103", Offset[{2, 2}, {45.92211803124721, 30.060324072671285}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{17.446811638393825, 13.060755833639424}, 0.125905348724952], 
+     InsetBox["104", Offset[{2, 2}, {17.572716987118778, 13.186661182364377}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{16.692840583473348, 13.438756813917397}, 0.125905348724952], 
+     InsetBox["105", Offset[{2, 2}, {16.8187459321983, 13.56466216264235}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.17689718799198, 10.485104132487123}, 0.125905348724952], 
+     InsetBox["106", Offset[{2, 2}, {48.30280253671693, 10.611009481212076}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{52.9792439106919, 15.81990573748976}, 0.125905348724952], 
+     InsetBox["107", Offset[{2, 2}, {53.10514925941685, 15.945811086214713}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.622821646554236, 7.5308898292707624}, 0.125905348724952], 
+     InsetBox["108", Offset[{2, 2}, {33.748726995279185, 7.656795177995715}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.754374500163436, 12.745139429238616}, 0.125905348724952], 
+     InsetBox["109", Offset[{2, 2}, {39.880279848888385, 12.871044777963569}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{21.53279162554596, 28.982503983558384}, 0.125905348724952], 
+     InsetBox["110", Offset[{2, 2}, {21.658696974270914, 29.108409332283337}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{54.70550055386707, 16.88892122722421}, 0.125905348724952], 
+     InsetBox["111", Offset[{2, 2}, {54.83140590259202, 17.01482657594916}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{49.17259702353238, 9.075537898793664}, 0.125905348724952], 
+     InsetBox["112", Offset[{2, 2}, {49.29850237225733, 9.201443247518617}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.104509691468955, 27.952266711160824}, 0.125905348724952], 
+     InsetBox["113", Offset[{2, 2}, {23.230415040193908, 28.078172059885777}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{55.12059625121171, 16.944158645916175}, 0.125905348724952], 
+     InsetBox["114", Offset[{2, 2}, {55.24650159993666, 17.070063994641128}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{41.73183511593244, 24.243117996931897}, 0.125905348724952], 
+     InsetBox["115", Offset[{2, 2}, {41.85774046465739, 24.36902334565685}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.44000512779354, 30.971379264587718}, 0.125905348724952], 
+     InsetBox["116", Offset[{2, 2}, {28.565910476518493, 31.09728461331267}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.378965287012385, 33.40598999896579}, 0.125905348724952], 
+     InsetBox["117", Offset[{2, 2}, {28.504870635737337, 33.531895347690735}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.674251669372456, 29.462695235633184}, 0.125905348724952], 
+     InsetBox["118", Offset[{2, 2}, {20.80015701809741, 29.588600584358137}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.43728020979863, 32.14380077747832}, 0.125905348724952], 
+     InsetBox["119", Offset[{2, 2}, {40.56318555852358, 32.26970612620327}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{55.43904574166379, 16.990280377767434}, 0.125905348724952], 
+     InsetBox["120", Offset[{2, 2}, {55.56495109038874, 17.116185726492386}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{57.095083233539526, 17.24700718915886}, 0.125905348724952], 
+     InsetBox["121", Offset[{2, 2}, {57.220988582264475, 17.372912537883813}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{26.739081443753854, 20.087561022742015}, 0.125905348724952], 
+     InsetBox["122", Offset[{2, 2}, {26.864986792478806, 20.213466371466968}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{58.4276773812261, 18.206697202532368}, 0.125905348724952], 
+     InsetBox["123", Offset[{2, 2}, {58.553582729951046, 18.33260255125732}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{50.1313013079552, 7.721582782613888}, 0.125905348724952], 
+     InsetBox["124", Offset[{2, 2}, {50.25720665668015, 7.8474881313388405}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.11053552008439, 30.530094125427723}, 0.125905348724952], 
+     InsetBox["125", Offset[{2, 2}, {46.23644086880934, 30.655999474152676}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{16.094037729661803, 11.795144198127511}, 0.125905348724952], 
+     InsetBox["126", Offset[{2, 2}, {16.219943078386756, 11.921049546852464}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.16498424147186, 34.61142447234479}, 0.125905348724952], 
+     InsetBox["127", Offset[{2, 2}, {28.290889590196812, 34.737329821069736}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{31.03100324810614, 7.7454916509153815}, 0.125905348724952], 
+     InsetBox["128", Offset[{2, 2}, {31.15690859683109, 7.871396999640334}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{16.169495763686694, 13.4390275985599}, 0.125905348724952], 
+     InsetBox["129", Offset[{2, 2}, {16.295401112411646, 13.564932947284852}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.434737658324934, 29.853936220764652}, 0.125905348724952], 
+     InsetBox["130", Offset[{2, 2}, {39.56064300704988, 29.979841569489604}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.395935899073855, 32.63525280297913}, 0.125905348724952], 
+     InsetBox["131", Offset[{2, 2}, {40.521841247798804, 32.76115815170408}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{37.87352242959577, 16.834232036865096}, 0.125905348724952], 
+     InsetBox["132", Offset[{2, 2}, {37.99942777832072, 16.96013738559005}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{19.44700841475052, 29.788078893700778}, 0.125905348724952], 
+     InsetBox["133", Offset[{2, 2}, {19.572913763475473, 29.91398424242573}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.87832659688962, 28.744181897856294}, 0.125905348724952], 
+     InsetBox["134", Offset[{2, 2}, {24.004231945614574, 28.870087246581246}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{14.841944068368807, 10.543504215699599}, 0.125905348724952], 
+     InsetBox["135", Offset[{2, 2}, {14.96784941709376, 10.669409564424551}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.97967603632401, 11.91654382810211}, 0.125905348724952], 
+     InsetBox["136", Offset[{2, 2}, {40.10558138504896, 12.042449176827063}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.91007304342929, 8.230111309407102}, 0.125905348724952], 
+     InsetBox["137", Offset[{2, 2}, {34.03597839215424, 8.356016658132054}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{59.805785872681184, 19.118602258350304}, 0.125905348724952], 
+     InsetBox["138", Offset[{2, 2}, {59.93169122140613, 19.244507607075256}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{61.166740349141705, 20.004444418085637}, 0.125905348724952], 
+     InsetBox["139", Offset[{2, 2}, {61.292645697866654, 20.13034976681059}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.9021762893305, 12.509107611268913}, 0.125905348724952], 
+     InsetBox["140", Offset[{2, 2}, {47.02808163805545, 12.635012959993865}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{53.40718081466957, 15.52431941426562}, 0.125905348724952], 
+     InsetBox["141", Offset[{2, 2}, {53.53308616339452, 15.650224762990572}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.2910279638912, 28.89264525914931}, 0.125905348724952], 
+     InsetBox["142", Offset[{2, 2}, {47.41693331261615, 29.018550607874264}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{60.003826503541234, 19.31508139994831}, 0.125905348724952], 
+     InsetBox["143", Offset[{2, 2}, {60.12973185226618, 19.44098674867326}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.723266838650662, 29.144570050179546}, 0.125905348724952], 
+     InsetBox["144", Offset[{2, 2}, {22.849172187375615, 29.270475398904498}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.678180081394043, 27.763466664927606}, 0.125905348724952], 
+     InsetBox["145", Offset[{2, 2}, {22.804085430118995, 27.889372013652558}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{39.40155320274515, 14.25350871908164}, 0.125905348724952], 
+     InsetBox["146", Offset[{2, 2}, {39.5274585514701, 14.379414067806593}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{62.494506847991346, 20.864938118099428}, 0.125905348724952], 
+     InsetBox["147", Offset[{2, 2}, {62.620412196716295, 20.99084346682438}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{58.951862040080215, 16.87298150152296}, 0.125905348724952], 
+     InsetBox["148", Offset[{2, 2}, {59.077767388805164, 16.998886850247914}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{13.590471465589872, 9.296756813216547}, 0.125905348724952], 
+     InsetBox["149", Offset[{2, 2}, {13.716376814314824, 9.4226621619415}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{41.253188108926786, 24.1856970027642}, 0.125905348724952], 
+     InsetBox["150", Offset[{2, 2}, {41.379093457651734, 24.311602351489153}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{18.96233286643874, 29.815898337569273}, 0.125905348724952], 
+     InsetBox["151", Offset[{2, 2}, {19.088238215163692, 29.941803686294225}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{63.76979821438019, 21.21837650750127}, 0.125905348724952], 
+     InsetBox["152", Offset[{2, 2}, {63.89570356310514, 21.34428185622622}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.179074176586546, 28.574283390576092}, 0.125905348724952], 
+     InsetBox["153", Offset[{2, 2}, {22.3049795253115, 28.700188739301044}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{63.01958219417983, 21.68909972504045}, 0.125905348724952], 
+     InsetBox["154", Offset[{2, 2}, {63.14548754290478, 21.815005073765402}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.05272655110668, 12.235457149884773}, 0.125905348724952], 
+     InsetBox["155", Offset[{2, 2}, {48.17863189983163, 12.361362498609726}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{12.836456194953456, 8.673592672155882}, 0.125905348724952], 
+     InsetBox["156", Offset[{2, 2}, {12.962361543678409, 8.799498020880835}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{21.169725342271114, 28.962300383724767}, 0.125905348724952], 
+     InsetBox["157", Offset[{2, 2}, {21.295630690996067, 29.08820573244972}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.585456230891534, 11.6039512457658}, 0.125905348724952], 
+     InsetBox["158", Offset[{2, 2}, {15.711361579616486, 11.729856594490752}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.38587777525193, 31.25757132827672}, 0.125905348724952], 
+     InsetBox["159", Offset[{2, 2}, {28.511783123976883, 31.38347667700167}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.33283944847251, 24.040013556161988}, 0.125905348724952], 
+     InsetBox["160", Offset[{2, 2}, {42.45874479719746, 24.16591890488694}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.258453249905095, 9.832365123305763}, 0.125905348724952], 
+     InsetBox["161", Offset[{2, 2}, {48.384358598630044, 9.958270472030716}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{29.705775753466167, 7.299361917876242}, 0.125905348724952], 
+     InsetBox["162", Offset[{2, 2}, {29.83168110219112, 7.425267266601194}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{60.781296957918606, 16.516679590501074}, 0.125905348724952], 
+     InsetBox["163", Offset[{2, 2}, {60.907202306643555, 16.642584939226026}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.14063550594193, 11.556753785048958}, 0.125905348724952], 
+     InsetBox["164", Offset[{2, 2}, {15.266540854666882, 11.68265913377391}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{62.18046206524764, 15.87238956643149}, 0.125905348724952], 
+     InsetBox["165", Offset[{2, 2}, {62.30636741397259, 15.998294915156443}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.31990571996556, 9.246057824715159}, 0.125905348724952], 
+     InsetBox["166", Offset[{2, 2}, {48.44581106869051, 9.371963173440111}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.50511324358033, 6.2056749976254615}, 0.125905348724952], 
+     InsetBox["167", Offset[{2, 2}, {33.63101859230528, 6.331580346350414}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{34.054223882092856, 7.613215422075955}, 0.125905348724952], 
+     InsetBox["168", Offset[{2, 2}, {34.180129230817805, 7.739120770800907}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{62.620484088807444, 15.417010095335723}, 0.125905348724952], 
+     InsetBox["169", Offset[{2, 2}, {62.74638943753239, 15.542915444060675}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.63498303944152, 34.02064441129009}, 0.125905348724952], 
+     InsetBox["170", Offset[{2, 2}, {28.76088838816647, 34.14654976001504}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{34.04405293276138, 7.314379972337582}, 0.125905348724952], 
+     InsetBox["171", Offset[{2, 2}, {34.16995828148633, 7.440285321062534}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{37.656580623355225, 16.62403106128542}, 0.125905348724952], 
+     InsetBox["172", Offset[{2, 2}, {37.782485972080174, 16.749936410010374}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.1567939951204, 35.65209790176229}, 0.125905348724952], 
+     InsetBox["173", Offset[{2, 2}, {28.28269934384535, 35.77800325048724}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{51.09096368580662, 6.384178855820537}, 0.125905348724952], 
+     InsetBox["174", Offset[{2, 2}, {51.21686903453157, 6.510084204545489}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{53.8637829531083, 15.274532625750275}, 0.125905348724952], 
+     InsetBox["175", Offset[{2, 2}, {53.98968830183325, 15.400437974475228}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{61.420562550340286, 20.176778070506625}, 0.125905348724952], 
+     InsetBox["176", Offset[{2, 2}, {61.546467899065235, 20.302683419231577}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{13.897984897190803, 7.983379585204089}, 0.125905348724952], 
+     InsetBox["177", Offset[{2, 2}, {14.023890245915755, 8.109284933929041}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{59.22255855604705, 16.755392374114134}, 0.125905348724952], 
+     InsetBox["178", Offset[{2, 2}, {59.348463904772, 16.881297722839086}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{26.334596293421736, 34.13328478424143}, 0.125905348724952], 
+     InsetBox["179", Offset[{2, 2}, {26.46050164214669, 34.25919013296638}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{14.794052504567805, 11.50749867808658}, 0.125905348724952], 
+     InsetBox["180", Offset[{2, 2}, {14.919957853292757, 11.633404026811533}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{26.05826535257167, 34.2268987289948}, 0.125905348724952], 
+     InsetBox["181", Offset[{2, 2}, {26.184170701296622, 34.352804077719746}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.88266535572023, 34.59825171585522}, 0.125905348724952], 
+     InsetBox["182", Offset[{2, 2}, {29.008570704445184, 34.72415706458017}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.345341256540294, 27.61870446034515}, 0.125905348724952], 
+     InsetBox["183", Offset[{2, 2}, {22.471246605265247, 27.744609809070102}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{63.21548758034511, 21.941514072507005}, 0.125905348724952], 
+     InsetBox["184", Offset[{2, 2}, {63.34139292907006, 22.067419421231957}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.58708002811908, 11.822625673812176}, 0.125905348724952], 
+     InsetBox["185", Offset[{2, 2}, {48.71298537684403, 11.948531022537129}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.873553910904675, 28.004370617315036}, 0.125905348724952], 
+     InsetBox["186", Offset[{2, 2}, {47.999459259629624, 28.13027596603999}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.39757883555037, 4.924288491433899}, 0.125905348724952], 
+     InsetBox["187", Offset[{2, 2}, {33.52348418427532, 5.050193840158851}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{18.600127501599463, 29.807632123741374}, 0.125905348724952], 
+     InsetBox["188", Offset[{2, 2}, {18.726032850324415, 29.933537472466327}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{43.335845730356695, 26.507324008220355}, 0.125905348724952], 
+     InsetBox["189", Offset[{2, 2}, {43.461751079081644, 26.633229356945307}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.67528748306189, 13.47172324342624}, 0.125905348724952], 
+     InsetBox["190", Offset[{2, 2}, {15.801192831786842, 13.597628592151192}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{12.620318590361915, 8.213203806329457}, 0.125905348724952], 
+     InsetBox["191", Offset[{2, 2}, {12.746223939086867, 8.339109155054409}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{63.55190534571745, 22.416132232073547}, 0.125905348724952], 
+     InsetBox["192", Offset[{2, 2}, {63.6778106944424, 22.5420375807985}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{11.606131521040954, 7.105340723590768}, 0.125905348724952], 
+     InsetBox["193", Offset[{2, 2}, {11.732036869765906, 7.23124607231572}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{30.81363965141076, 7.352802868850505}, 0.125905348724952], 
+     InsetBox["194", Offset[{2, 2}, {30.939545000135713, 7.478708217575457}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.775012939293, 11.61387115043333}, 0.125905348724952], 
+     InsetBox["195", Offset[{2, 2}, {48.90091828801795, 11.739776499158282}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.89601048860025, 21.800216782059188}, 0.125905348724952], 
+     InsetBox["196", Offset[{2, 2}, {65.02191583732521, 21.92612213078414}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{63.61312099338164, 15.309086211617476}, 0.125905348724952], 
+     InsetBox["197", Offset[{2, 2}, {63.73902634210659, 15.434991560342429}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.61038669233143, 30.97216081719438}, 0.125905348724952], 
+     InsetBox["198", Offset[{2, 2}, {46.73629204105638, 31.09806616591933}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{65.01036490517764, 14.74920500495476}, 0.125905348724952], 
+     InsetBox["199", Offset[{2, 2}, {65.1362702539026, 14.875110353679712}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{54.26424744744344, 15.028588106739376}, 0.125905348724952], 
+     InsetBox["200", Offset[{2, 2}, {54.39015279616839, 15.154493455464328}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{25.62434001809075, 35.826943844096235}, 0.125905348724952], 
+     InsetBox["201", Offset[{2, 2}, {25.7502453668157, 35.95284919282118}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.15538184659694, 36.638784319562454}, 0.125905348724952], 
+     InsetBox["202", Offset[{2, 2}, {28.28128719532189, 36.7646896682874}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{11.025924035768611, 6.098772053464689}, 0.125905348724952], 
+     InsetBox["203", Offset[{2, 2}, {11.151829384493563, 6.224677402189641}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{54.042428109063856, 14.949575245211557}, 0.125905348724952], 
+     InsetBox["204", Offset[{2, 2}, {54.168333457788805, 15.07548059393651}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.39647540556348, 6.890096545180318}, 0.125905348724952], 
+     InsetBox["205", Offset[{2, 2}, {28.52238075428843, 7.016001893905271}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{24.930921335715706, 37.52127186845182}, 0.125905348724952], 
+     InsetBox["206", Offset[{2, 2}, {25.056826684440658, 37.64717721717677}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{34.19421974670593, 7.110682610027963}, 0.125905348724952], 
+     InsetBox["207", Offset[{2, 2}, {34.32012509543088, 7.236587958752915}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.37030496218711, 8.741847246397478}, 0.125905348724952], 
+     InsetBox["208", Offset[{2, 2}, {48.49621031091206, 8.86775259512243}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{11.423861843353922, 8.869233840439296}, 0.125905348724952], 
+     InsetBox["209", Offset[{2, 2}, {11.549767192078875, 8.995139189164249}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{49.38452411204275, 8.766524265650945}, 0.125905348724952], 
+     InsetBox["210", Offset[{2, 2}, {49.510429460767696, 8.892429614375898}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{29.107030070030667, 35.12309921388592}, 0.125905348724952], 
+     InsetBox["211", Offset[{2, 2}, {29.23293541875562, 35.24900456261087}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.8087137430042, 35.13724001461231}, 0.125905348724952], 
+     InsetBox["212", Offset[{2, 2}, {27.934619091729154, 35.26314536333726}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{10.01429466241201, 9.041205310419713}, 0.125905348724952], 
+     InsetBox["213", Offset[{2, 2}, {10.140200011136962, 9.167110659144665}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.88579662408272, 23.848763380682165}, 0.125905348724952], 
+     InsetBox["214", Offset[{2, 2}, {43.01170197280767, 23.974668729407117}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{14.972840526185017, 7.309049971090088}, 0.125905348724952], 
+     InsetBox["215", Offset[{2, 2}, {15.09874587490997, 7.434955319815041}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{8.60861443546277, 9.037260031923397}, 0.125905348724952], 
+     InsetBox["216", Offset[{2, 2}, {8.734519784187722, 9.16316538064835}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.566846547805444, 9.24730286391861}, 0.125905348724952], 
+     InsetBox["217", Offset[{2, 2}, {9.692751896530396, 9.373208212643563}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{21.58988533834296, 29.506765556121458}, 0.125905348724952], 
+     InsetBox["218", Offset[{2, 2}, {21.715790687067912, 29.63267090484641}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.909252255444564, 33.539542005862}, 0.125905348724952], 
+     InsetBox["219", Offset[{2, 2}, {41.03515760416951, 33.66544735458695}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{16.083777638847945, 6.691868940708105}, 0.125905348724952], 
+     InsetBox["220", Offset[{2, 2}, {16.209682987572897, 6.817774289433057}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{51.99630467566254, 5.0692648068348625}, 0.125905348724952], 
+     InsetBox["221", Offset[{2, 2}, {52.12221002438749, 5.195170155559815}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.237267649491809, 13.509608550532821}, 0.125905348724952], 
+     InsetBox["222", Offset[{2, 2}, {15.363172998216761, 13.635513899257774}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{62.982103177396525, 15.026999713468722}, 0.125905348724952], 
+     InsetBox["223", Offset[{2, 2}, {63.10800852612147, 15.152905062193675}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{65.84093259851701, 22.37544613083418}, 0.125905348724952], 
+     InsetBox["224", Offset[{2, 2}, {65.96683794724197, 22.501351479559133}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{16.15036062120915, 13.867872800122525}, 0.125905348724952], 
+     InsetBox["225", Offset[{2, 2}, {16.2762659699341, 13.993778148847477}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.613114165316311, 14.236587532671546}, 0.125905348724952], 
+     InsetBox["226", Offset[{2, 2}, {15.739019514041264, 14.362492881396498}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{30.65430094596319, 7.040928243590654}, 0.125905348724952], 
+     InsetBox["227", Offset[{2, 2}, {30.780206294688142, 7.166833592315607}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{61.07121540851237, 16.160329575756744}, 0.125905348724952], 
+     InsetBox["228", Offset[{2, 2}, {61.19712075723732, 16.286234924481697}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.483272489901434, 35.60763960123669}, 0.125905348724952], 
+     InsetBox["229", Offset[{2, 2}, {27.609177838626387, 35.73354494996164}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{17.345488478624247, 6.5124440592951665}, 0.125905348724952], 
+     InsetBox["230", Offset[{2, 2}, {17.4713938273492, 6.638349408020119}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.191644059355035, 11.12255626271868}, 0.125905348724952], 
+     InsetBox["231", Offset[{2, 2}, {40.317549408079984, 11.248461611443632}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{24.258577188041134, 39.1955573836175}, 0.125905348724952], 
+     InsetBox["232", Offset[{2, 2}, {24.384482536766086, 39.32146273234245}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.22928659351297, 20.715289665273882}, 0.125905348724952], 
+     InsetBox["233", Offset[{2, 2}, {64.35519194223792, 20.841195013998835}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{18.36601596716242, 30.1270672795752}, 0.125905348724952], 
+     InsetBox["234", Offset[{2, 2}, {18.49192131588737, 30.252972628300153}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.427047295423417, 11.358119700576767}, 0.125905348724952], 
+     InsetBox["235", Offset[{2, 2}, {15.55295264414837, 11.484025049301719}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{7.247245633461912, 9.050730553474615}, 0.125905348724952], 
+     InsetBox["236", Offset[{2, 2}, {7.373150982186864, 9.176635902199568}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.203326552721002, 35.99138751331937}, 0.125905348724952], 
+     InsetBox["237", Offset[{2, 2}, {27.329231901445954, 36.117292862044316}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.287918505030014, 31.244165181576093}, 0.125905348724952], 
+     InsetBox["238", Offset[{2, 2}, {46.41382385375496, 31.370070530301046}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.06009935463737, 23.085803429636307}, 0.125905348724952], 
+     InsetBox["239", Offset[{2, 2}, {64.18600470336233, 23.21170877836126}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.59323183989852, 20.15184643208069}, 0.125905348724952], 
+     InsetBox["240", Offset[{2, 2}, {64.71913718862348, 20.27775178080564}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{10.767697574481268, 6.637667735361605}, 0.125905348724952], 
+     InsetBox["241", Offset[{2, 2}, {10.89360292320622, 6.763573084086557}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{41.41124096883769, 34.708615437544694}, 0.125905348724952], 
+     InsetBox["242", Offset[{2, 2}, {41.53714631756264, 34.83452078626964}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{14.754209940867387, 7.061218859555359}, 0.125905348724952], 
+     InsetBox["243", Offset[{2, 2}, {14.88011528959234, 7.187124208280311}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.983824789663544, 39.5280763201915}, 0.125905348724952], 
+     InsetBox["244", Offset[{2, 2}, {24.109730138388496, 39.65398166891645}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.755970759378, 29.211423972118798}, 0.125905348724952], 
+     InsetBox["245", Offset[{2, 2}, {47.88187610810295, 29.33732932084375}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{43.391768470025525, 23.67378339905385}, 0.125905348724952], 
+     InsetBox["246", Offset[{2, 2}, {43.517673818750474, 23.799688747778802}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{17.782448396149345, 30.148014671069646}, 0.125905348724952], 
+     InsetBox["247", Offset[{2, 2}, {17.908353744874297, 30.2739200197946}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{29.30319397881847, 35.574497538292576}, 0.125905348724952], 
+     InsetBox["248", Offset[{2, 2}, {29.429099327543423, 35.700402887017525}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.135386442873365, 37.01198373140184}, 0.125905348724952], 
+     InsetBox["249", Offset[{2, 2}, {28.261291791598318, 37.13788908012679}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{52.92087044828499, 3.8957146489398333}, 0.125905348724952], 
+     InsetBox["250", Offset[{2, 2}, {53.046775797009936, 4.021619997664786}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{41.4044786599871, 23.9678949090395}, 0.125905348724952], 
+     InsetBox["251", Offset[{2, 2}, {41.53038400871205, 24.093800257764453}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{21.02403423978283, 30.032893317940037}, 0.125905348724952], 
+     InsetBox["252", Offset[{2, 2}, {21.14993958850778, 30.15879866666499}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{61.296291082579664, 15.824064766667048}, 0.125905348724952], 
+     InsetBox["253", Offset[{2, 2}, {61.42219643130461, 15.949970115392}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{27.099827677703857, 6.505925136594364}, 0.125905348724952], 
+     InsetBox["254", Offset[{2, 2}, {27.22573302642881, 6.631830485319316}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.224992574539, 23.405679145084697}, 0.125905348724952], 
+     InsetBox["255", Offset[{2, 2}, {64.35089792326396, 23.53158449380965}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.95331180931639, 6.175575974139301}, 0.125905348724952], 
+     InsetBox["256", Offset[{2, 2}, {10.079217158041342, 6.301481322864253}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{61.79917359924783, 16.945683357414996}, 0.125905348724952], 
+     InsetBox["257", Offset[{2, 2}, {61.92507894797278, 17.07158870613995}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{6.901771187652599, 9.019837274240517}, 0.125905348724952], 
+     InsetBox["258", Offset[{2, 2}, {7.027676536377552, 9.14574262296547}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{17.591545227338475, 30.451011098340615}, 0.125905348724952], 
+     InsetBox["259", Offset[{2, 2}, {17.717450576063428, 30.576916447065567}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.075580073985321, 14.49456906740308}, 0.125905348724952], 
+     InsetBox["260", Offset[{2, 2}, {15.201485422710274, 14.620474416128033}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.516251732818326, 30.515616020507125}, 0.125905348724952], 
+     InsetBox["261", Offset[{2, 2}, {20.642157081543278, 30.641521369232077}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.41919444318998, 27.880956442158926}, 0.125905348724952], 
+     InsetBox["262", Offset[{2, 2}, {48.54509979191493, 28.006861790883878}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{5.9525950398592435, 9.067551364854685}, 0.125905348724952], 
+     InsetBox["263", Offset[{2, 2}, {6.078500388584196, 9.193456713579637}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.737177870156728, 39.9322363685071}, 0.125905348724952], 
+     InsetBox["264", Offset[{2, 2}, {23.86308321888168, 40.05814171723205}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.524710113799735, 40.95077373293836}, 0.125905348724952], 
+     InsetBox["265", Offset[{2, 2}, {23.650615462524687, 41.07667908166331}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{14.608833000544024, 14.696277162704703}, 0.125905348724952], 
+     InsetBox["266", Offset[{2, 2}, {14.734738349268977, 14.822182511429656}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.162575155179866, 37.48931851691245}, 0.125905348724952], 
+     InsetBox["267", Offset[{2, 2}, {28.288480503904818, 37.6152238656374}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.90515341197779, 41.533510793400495}, 0.125905348724952], 
+     InsetBox["268", Offset[{2, 2}, {23.03105876070274, 41.659416142125444}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{10.458604655859414, 5.126058724160398}, 0.125905348724952], 
+     InsetBox["269", Offset[{2, 2}, {10.584510004584367, 5.25196407288535}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.03487016315867, 31.367626600050958}, 0.125905348724952], 
+     InsetBox["270", Offset[{2, 2}, {47.16077551188362, 31.49353194877591}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.18143669791515, 9.44826595885504}, 0.125905348724952], 
+     InsetBox["271", Offset[{2, 2}, {9.307342046640102, 9.574171307579993}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{29.449181434049017, 35.92618275330335}, 0.125905348724952], 
+     InsetBox["272", Offset[{2, 2}, {29.57508678277397, 36.0520881020283}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.03294021226034, 42.56997608235697}, 0.125905348724952], 
+     InsetBox["273", Offset[{2, 2}, {23.15884556098529, 42.69588143108192}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{14.915058817024338, 13.579415028805917}, 0.125905348724952], 
+     InsetBox["274", Offset[{2, 2}, {15.04096416574929, 13.70532037753087}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{43.89741236278654, 26.46271009821098}, 0.125905348724952], 
+     InsetBox["275", Offset[{2, 2}, {44.02331771151149, 26.588615446935933}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.304421402511895, 42.057869532729185}, 0.125905348724952], 
+     InsetBox["276", Offset[{2, 2}, {22.430326751236848, 42.183774881454134}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{51.492180795113235, 5.953042435021439}, 0.125905348724952], 
+     InsetBox["277", Offset[{2, 2}, {51.618086143838184, 6.078947783746392}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{65.42426864053758, 21.911039364912664}, 0.125905348724952], 
+     InsetBox["278", Offset[{2, 2}, {65.55017398926253, 22.036944713637617}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.642023317561062, 5.85507601678316}, 0.125905348724952], 
+     InsetBox["279", Offset[{2, 2}, {9.767928666286014, 5.9809813655081125}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{18.041107125247287, 30.29692022761042}, 0.125905348724952], 
+     InsetBox["280", Offset[{2, 2}, {18.16701247397224, 30.422825576335374}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{65.9000563915768, 14.087957259281081}, 0.125905348724952], 
+     InsetBox["281", Offset[{2, 2}, {66.02596174030175, 14.213862608006034}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.29145328143817, 10.853474809707317}, 0.125905348724952], 
+     InsetBox["282", Offset[{2, 2}, {40.41735863016312, 10.979380158432269}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{44.407736750333214, 26.412889137919034}, 0.125905348724952], 
+     InsetBox["283", Offset[{2, 2}, {44.53364209905816, 26.538794486643987}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{25.81242580544542, 6.126061001702242}, 0.125905348724952], 
+     InsetBox["284", Offset[{2, 2}, {25.938331154170374, 6.251966350427194}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{61.46442660059492, 15.547704634047713}, 0.125905348724952], 
+     InsetBox["285", Offset[{2, 2}, {61.59033194931987, 15.673609982772666}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{41.87728376291457, 35.841311151353636}, 0.125905348724952], 
+     InsetBox["286", Offset[{2, 2}, {42.00318911163952, 35.967216500078585}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.72251644381281, 22.90964866209116}, 0.125905348724952], 
+     InsetBox["287", Offset[{2, 2}, {66.84842179253776, 23.035554010816114}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.072623958032025, 36.39588665218855}, 0.125905348724952], 
+     InsetBox["288", Offset[{2, 2}, {42.198529306756974, 36.5217920009135}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{53.89276654862328, 3.103695071970691}, 0.125905348724952], 
+     InsetBox["289", Offset[{2, 2}, {54.01867189734823, 3.229600420695643}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.549809186741324, 40.229305415012455}, 0.125905348724952], 
+     InsetBox["290", Offset[{2, 2}, {23.675714535466277, 40.355210763737404}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{16.910283461196073, 30.70495062420144}, 0.125905348724952], 
+     InsetBox["291", Offset[{2, 2}, {17.036188809921025, 30.830855972926393}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{49.061406346715216, 11.478190724915226}, 0.125905348724952], 
+     InsetBox["292", Offset[{2, 2}, {49.187311695440165, 11.604096073640179}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.34013265447785, 31.5823927978705}, 0.125905348724952], 
+     InsetBox["293", Offset[{2, 2}, {46.4660380032028, 31.708298146595453}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.37525034768818, 10.399425024245833}, 0.125905348724952], 
+     InsetBox["294", Offset[{2, 2}, {40.50115569641313, 10.525330372970785}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{53.04582257249342, 3.0817130013845215}, 0.125905348724952], 
+     InsetBox["295", Offset[{2, 2}, {53.17172792121837, 3.2076183501094735}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.988809504303283, 43.66425662546861}, 0.125905348724952], 
+     InsetBox["296", Offset[{2, 2}, {23.114714853028236, 43.79016197419356}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{34.278279305096234, 6.738657928790264}, 0.125905348724952], 
+     InsetBox["297", Offset[{2, 2}, {34.40418465382118, 6.8645632775152166}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.43106731813987, 43.698231112958815}, 0.125905348724952], 
+     InsetBox["298", Offset[{2, 2}, {22.556972666864823, 43.824136461683764}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{4.5986877775198955, 9.013256591313917}, 0.125905348724952], 
+     InsetBox["299", Offset[{2, 2}, {4.724593126244848, 9.13916194003887}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.34975232499595, 31.690107610713117}, 0.125905348724952], 
+     InsetBox["300", Offset[{2, 2}, {47.475657673720896, 31.81601295943807}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.385308195647426, 4.574459549111042}, 0.125905348724952], 
+     InsetBox["301", Offset[{2, 2}, {33.511213544372374, 4.700364897835994}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.175483687992564, 38.2490911660564}, 0.125905348724952], 
+     InsetBox["302", Offset[{2, 2}, {28.301389036717516, 38.37499651478135}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.294169901418336, 3.722122536006875}, 0.125905348724952], 
+     InsetBox["303", Offset[{2, 2}, {33.420075250143285, 3.848027884731827}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.87605444919008, 19.54345370970731}, 0.125905348724952], 
+     InsetBox["304", Offset[{2, 2}, {65.00195979791503, 19.669359058432264}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.927757632888714, 34.23239477790861}, 0.125905348724952], 
+     InsetBox["305", Offset[{2, 2}, {41.05366298161366, 34.35830012663356}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{16.350258735225246, 30.911547101738527}, 0.125905348724952], 
+     InsetBox["306", Offset[{2, 2}, {16.4761640839502, 31.03745245046348}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.41059517045673, 8.360380879862785}, 0.125905348724952], 
+     InsetBox["307", Offset[{2, 2}, {48.53650051918168, 8.486286228587737}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.016808549280178, 44.60680271413746}, 0.125905348724952], 
+     InsetBox["308", Offset[{2, 2}, {23.14271389800513, 44.73270806286241}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.26163360650712, 36.80075528173403}, 0.125905348724952], 
+     InsetBox["309", Offset[{2, 2}, {42.38753895523207, 36.926660630458976}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{8.881977191516658, 9.614700722078556}, 0.125905348724952], 
+     InsetBox["310", Offset[{2, 2}, {9.00788254024161, 9.740606070803508}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.53773518224653, 9.791916708325035}, 0.125905348724952], 
+     InsetBox["311", Offset[{2, 2}, {40.66364053097148, 9.917822057049987}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{3.637424914473762, 9.371319030207523}, 0.125905348724952], 
+     InsetBox["312", Offset[{2, 2}, {3.7633302631987138, 9.497224378932476}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{67.08372133784115, 23.071677801970196}, 0.125905348724952], 
+     InsetBox["313", Offset[{2, 2}, {67.20962668656611, 23.19758315069515}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.836842289956955, 5.992924192689678}, 0.125905348724952], 
+     InsetBox["314", Offset[{2, 2}, {15.962747638681908, 6.11882954141463}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.873807499455783, 4.189869970333572}, 0.125905348724952], 
+     InsetBox["315", Offset[{2, 2}, {9.999712848180735, 4.315775319058524}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{49.45174537302098, 11.184107352476763}, 0.125905348724952], 
+     InsetBox["316", Offset[{2, 2}, {49.577650721745925, 11.310012701201716}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.145511497953354, 45.12713992481533}, 0.125905348724952], 
+     InsetBox["317", Offset[{2, 2}, {23.271416846678306, 45.25304527354028}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.0290379612751, 14.678305584604965}, 0.125905348724952], 
+     InsetBox["318", Offset[{2, 2}, {66.15494331000005, 14.804210933329918}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{54.236929769442035, 2.8263495045528053}, 0.125905348724952], 
+     InsetBox["319", Offset[{2, 2}, {54.362835118166984, 2.9522548532777573}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.59850654700852, 31.96637987260427}, 0.125905348724952], 
+     InsetBox["320", Offset[{2, 2}, {47.72441189573347, 32.09228522132922}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{65.14904740995077, 18.895064908516332}, 0.125905348724952], 
+     InsetBox["321", Offset[{2, 2}, {65.27495275867572, 19.020970257241284}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.000032530716418, 42.50158722117246}, 0.125905348724952], 
+     InsetBox["322", Offset[{2, 2}, {22.12593787944137, 42.627492569897406}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.414951662927336, 5.572049981295699}, 0.125905348724952], 
+     InsetBox["323", Offset[{2, 2}, {9.540857011652289, 5.697955330020651}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{54.76352264644973, 2.3186397291581713}, 0.125905348724952], 
+     InsetBox["324", Offset[{2, 2}, {54.88942799517468, 2.4445450778831233}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{43.744589242399954, 23.69357716183138}, 0.125905348724952], 
+     InsetBox["325", Offset[{2, 2}, {43.8704945911249, 23.819482510556334}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.38073827677651, 36.63123289172327}, 0.125905348724952], 
+     InsetBox["326", Offset[{2, 2}, {42.50664362550146, 36.75713824044822}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.23619532239131, 5.83683192049201}, 0.125905348724952], 
+     InsetBox["327", Offset[{2, 2}, {9.362100671116263, 5.962737269216962}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{54.59982521745334, 14.857791579596713}, 0.125905348724952], 
+     InsetBox["328", Offset[{2, 2}, {54.72573056617829, 14.983696928321665}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.319348686329505, 33.04109285105217}, 0.125905348724952], 
+     InsetBox["329", Offset[{2, 2}, {40.445254035054454, 33.16699819977712}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.91970969508143, 34.86022914129096}, 0.125905348724952], 
+     InsetBox["330", Offset[{2, 2}, {41.04561504380638, 34.98613449001591}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{51.886369189133305, 5.6060484302710645}, 0.125905348724952], 
+     InsetBox["331", Offset[{2, 2}, {52.012274537858254, 5.731953778996017}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{53.14768822114398, 2.329479009363201}, 0.125905348724952], 
+     InsetBox["332", Offset[{2, 2}, {53.27359356986893, 2.455384358088153}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.19848886130268, 2.6100401821834573}, 0.125905348724952], 
+     InsetBox["333", Offset[{2, 2}, {33.32439421002763, 2.7359455309084093}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{65.84314689586316, 18.997415372662626}, 0.125905348724952], 
+     InsetBox["334", Offset[{2, 2}, {65.96905224458811, 19.12332072138758}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.391782556772288, 3.3499848258533724}, 0.125905348724952], 
+     InsetBox["335", Offset[{2, 2}, {9.51768790549724, 3.4758901745783244}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.54513017950761, 23.595577870081627}, 0.125905348724952], 
+     InsetBox["336", Offset[{2, 2}, {64.67103552823257, 23.72148321880658}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.92516015388457, 45.30847889545012}, 0.125905348724952], 
+     InsetBox["337", Offset[{2, 2}, {23.05106550260952, 45.43438424417507}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{65.82876280565372, 21.976959257940397}, 0.125905348724952], 
+     InsetBox["338", Offset[{2, 2}, {65.95466815437868, 22.10286460666535}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.594350879167425, 5.341479076579224}, 0.125905348724952], 
+     InsetBox["339", Offset[{2, 2}, {15.720256227892378, 5.467384425304177}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.51095799093142, 14.501908074148172}, 0.125905348724952], 
+     InsetBox["340", Offset[{2, 2}, {66.63686333965637, 14.627813422873125}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{49.74376532952535, 10.956471014020336}, 0.125905348724952], 
+     InsetBox["341", Offset[{2, 2}, {49.8696706782503, 11.082376362745288}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{52.10068273606744, 4.5817364438774995}, 0.125905348724952], 
+     InsetBox["342", Offset[{2, 2}, {52.22658808479239, 4.707641792602452}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.10548174401267, 29.44777563772214}, 0.125905348724952], 
+     InsetBox["343", Offset[{2, 2}, {48.23138709273762, 29.57368098644709}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{18.51487383203331, 6.185340851585707}, 0.125905348724952], 
+     InsetBox["344", Offset[{2, 2}, {18.640779180758262, 6.311246200310659}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.08332185095361, 30.949774689828402}, 0.125905348724952], 
+     InsetBox["345", Offset[{2, 2}, {20.209227199678562, 31.075680038553354}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.292175908500102, 3.0124959908713613}, 0.125905348724952], 
+     InsetBox["346", Offset[{2, 2}, {9.418081257225055, 3.1384013395963133}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{2.862723565683673, 9.623887535758914}, 0.125905348724952], 
+     InsetBox["347", Offset[{2, 2}, {2.988628914408625, 9.749792884483867}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{41.01794599467826, 35.25108951357101}, 0.125905348724952], 
+     InsetBox["348", Offset[{2, 2}, {41.143851343403206, 35.37699486229596}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{24.55751621876276, 6.058116059337188}, 0.125905348724952], 
+     InsetBox["349", Offset[{2, 2}, {24.683421567487713, 6.18402140806214}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.3394047980295, 13.562853408822942}, 0.125905348724952], 
+     InsetBox["350", Offset[{2, 2}, {66.46531014675446, 13.688758757547895}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{53.24098840075914, 1.6443111868369797}, 0.125905348724952], 
+     InsetBox["351", Offset[{2, 2}, {53.36689374948409, 1.7702165355619317}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.24986136193725, 3.379506071192381}, 0.125905348724952], 
+     InsetBox["352", Offset[{2, 2}, {33.3757667106622, 3.505411419917333}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{67.49654867290181, 23.371016105594908}, 0.125905348724952], 
+     InsetBox["353", Offset[{2, 2}, {67.62245402162677, 23.49692145431986}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.6703115524497, 18.231231182219044}, 0.125905348724952], 
+     InsetBox["354", Offset[{2, 2}, {64.79621690117466, 18.357136530943997}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{3.1179195085710134, 9.633133871573213}, 0.125905348724952], 
+     InsetBox["355", Offset[{2, 2}, {3.2438248572959654, 9.759039220298165}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{3.7834894679017985, 8.554240956472736}, 0.125905348724952], 
+     InsetBox["356", Offset[{2, 2}, {3.9093948166267505, 8.680146305197688}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{52.179819942481394, 4.219822986926024}, 0.125905348724952], 
+     InsetBox["357", Offset[{2, 2}, {52.30572529120634, 4.345728335650977}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{32.99685903231634, 1.7397134199260655}, 0.125905348724952], 
+     InsetBox["358", Offset[{2, 2}, {33.122764381041286, 1.8656187686510175}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{19.71325780221655, 6.0864699110938165}, 0.125905348724952], 
+     InsetBox["359", Offset[{2, 2}, {19.839163150941502, 6.212375259818769}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{21.867260095243857, 44.794700036616575}, 0.125905348724952], 
+     InsetBox["360", Offset[{2, 2}, {21.99316544396881, 44.920605385341524}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{65.32675477351563, 18.11032796693855}, 0.125905348724952], 
+     InsetBox["361", Offset[{2, 2}, {65.45266012224059, 18.2362333156635}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{8.607869830288333, 5.4963619279744105}, 0.125905348724952], 
+     InsetBox["362", Offset[{2, 2}, {8.733775179013286, 5.622267276699363}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.43934438966181, 10.097187269135127}, 0.125905348724952], 
+     InsetBox["363", Offset[{2, 2}, {40.56524973838676, 10.223092617860079}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{21.350712342162865, 45.85340296669957}, 0.125905348724952], 
+     InsetBox["364", Offset[{2, 2}, {21.476617690887817, 45.97930831542452}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.335347400871605, 2.0066822399213002}, 0.125905348724952], 
+     InsetBox["365", Offset[{2, 2}, {33.461252749596554, 2.132587588646252}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{65.8896406586407, 18.012829142071606}, 0.125905348724952], 
+     InsetBox["366", Offset[{2, 2}, {66.01554600736566, 18.13873449079656}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{18.411506376530657, 5.641272476910144}, 0.125905348724952], 
+     InsetBox["367", Offset[{2, 2}, {18.53741172525561, 5.7671778256350965}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{25.64755484553214, 5.5443166138111035}, 0.125905348724952], 
+     InsetBox["368", Offset[{2, 2}, {25.773460194257094, 5.670221962536056}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{17.34785704316446, 30.175278249688525}, 0.125905348724952], 
+     InsetBox["369", Offset[{2, 2}, {17.473762391889412, 30.301183598413477}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{26.98726985225182, 36.264421053886316}, 0.125905348724952], 
+     InsetBox["370", Offset[{2, 2}, {27.113175200976773, 36.390326402611265}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.65373181423669, 37.43407145435103}, 0.125905348724952], 
+     InsetBox["371", Offset[{2, 2}, {42.77963716296164, 37.559976803075976}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{5.56738730131865, 8.97935097960202}, 0.125905348724952], 
+     InsetBox["372", Offset[{2, 2}, {5.6932926500436025, 9.105256328326972}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.91286076024787, 23.821185254669615}, 0.125905348724952], 
+     InsetBox["373", Offset[{2, 2}, {65.03876610897282, 23.947090603394567}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.88242550431985, 14.348076002440838}, 0.125905348724952], 
+     InsetBox["374", Offset[{2, 2}, {67.00833085304481, 14.47398135116579}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{1.8947250686308053, 9.662509611240887}, 0.125905348724952], 
+     InsetBox["375", Offset[{2, 2}, {2.020630417355757, 9.78841495996584}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{44.861466078297006, 26.44473149480214}, 0.125905348724952], 
+     InsetBox["376", Offset[{2, 2}, {44.987371427021955, 26.570636843527094}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.33646694575802, 37.39561610555623}, 0.125905348724952], 
+     InsetBox["377", Offset[{2, 2}, {42.46237229448297, 37.52152145428118}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{8.932528811414755, 2.663976102140147}, 0.125905348724952], 
+     InsetBox["378", Offset[{2, 2}, {9.058434160139708, 2.789881450865099}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{14.254250884669847, 14.843799128820859}, 0.125905348724952], 
+     InsetBox["379", Offset[{2, 2}, {14.3801562333948, 14.969704477545811}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{68.18318700365296, 23.79644451660617}, 0.125905348724952], 
+     InsetBox["380", Offset[{2, 2}, {68.30909235237792, 23.92234986533112}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.45804422057034, 31.806232022333006}, 0.125905348724952], 
+     InsetBox["381", Offset[{2, 2}, {46.58394956929529, 31.93213737105796}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.81286511259837, 44.12172782971446}, 0.125905348724952], 
+     InsetBox["382", Offset[{2, 2}, {22.938770461323323, 44.24763317843941}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.88742390557434, 45.898923914591705}, 0.125905348724952], 
+     InsetBox["383", Offset[{2, 2}, {23.013329254299293, 46.024829263316654}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.42506236866247, 19.081760246952996}, 0.125905348724952], 
+     InsetBox["384", Offset[{2, 2}, {66.55096771738742, 19.20766559567795}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{62.816265948241764, 15.215855957842038}, 0.125905348724952], 
+     InsetBox["385", Offset[{2, 2}, {62.94217129696671, 15.34176130656699}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{63.76361289660842, 17.783561810614813}, 0.125905348724952], 
+     InsetBox["386", Offset[{2, 2}, {63.88951824533337, 17.909467159339766}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{52.26193854465633, 5.333686676084659}, 0.125905348724952], 
+     InsetBox["387", Offset[{2, 2}, {52.38784389338128, 5.459592024809611}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{62.805394885071664, 17.35681231376993}, 0.125905348724952], 
+     InsetBox["388", Offset[{2, 2}, {62.93130023379661, 17.48271766249488}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.74755861779748, 9.464881912861165}, 0.125905348724952], 
+     InsetBox["389", Offset[{2, 2}, {40.87346396652243, 9.590787261586117}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{48.96665546586904, 27.93548831213031}, 0.125905348724952], 
+     InsetBox["390", Offset[{2, 2}, {49.09256081459399, 28.061393660855263}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{55.39440413445449, 1.9676603174158593}, 0.125905348724952], 
+     InsetBox["391", Offset[{2, 2}, {55.52030948317944, 2.0935656661408113}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.65351154620848, 13.727066801797463}, 0.125905348724952], 
+     InsetBox["392", Offset[{2, 2}, {66.77941689493343, 13.852972150522415}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{1.49191524606465, 9.656093880456615}, 0.125905348724952], 
+     InsetBox["393", Offset[{2, 2}, {1.617820594789602, 9.781999229181567}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.87092300235173, 14.715313179657159}, 0.125905348724952], 
+     InsetBox["394", Offset[{2, 2}, {66.99682835107669, 14.841218528382111}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{8.172073968742165, 5.194005374299143}, 0.125905348724952], 
+     InsetBox["395", Offset[{2, 2}, {8.297979317467117, 5.319910723024096}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{55.64203305200278, 1.6542149383787752}, 0.125905348724952], 
+     InsetBox["396", Offset[{2, 2}, {55.76793840072773, 1.7801202871037272}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{32.84956986114005, 1.3723000688516898}, 0.125905348724952], 
+     InsetBox["397", Offset[{2, 2}, {32.975475209864996, 1.4982054175766417}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{49.39549646241556, 27.907871775640444}, 0.125905348724952], 
+     InsetBox["398", Offset[{2, 2}, {49.52140181114051, 28.033777124365397}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{32.90857335313606, 1.0187815081131788}, 0.125905348724952], 
+     InsetBox["399", Offset[{2, 2}, {33.03447870186101, 1.1446868568381308}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{32.83960031965705, 0.431355471908649}, 0.125905348724952], 
+     InsetBox["400", Offset[{2, 2}, {32.965505668382, 0.5572608206336009}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.872499817601067, 46.86775818136836}, 0.125905348724952], 
+     InsetBox["401", Offset[{2, 2}, {20.99840516632602, 46.99366353009331}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.19333510013435, 38.91476048111811}, 0.125905348724952], 
+     InsetBox["402", Offset[{2, 2}, {28.319240448859304, 39.04066582984306}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.203036626145263, 39.47340906731226}, 0.125905348724952], 
+     InsetBox["403", Offset[{2, 2}, {28.328941974870215, 39.59931441603721}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.393957111367751, 4.756031414698416}, 0.125905348724952], 
+     InsetBox["404", Offset[{2, 2}, {15.519862460092703, 4.881936763423369}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{3.0238897507533693, 8.12035526026872}, 0.125905348724952], 
+     InsetBox["405", Offset[{2, 2}, {3.1497950994783213, 8.246260608993673}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.55117260564051, 3.8597025503012006}, 0.125905348724952], 
+     InsetBox["406", Offset[{2, 2}, {9.677077954365462, 3.9856078990261525}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.2298415359074, 33.34843848482861}, 0.125905348724952], 
+     InsetBox["407", Offset[{2, 2}, {40.355746884632346, 33.47434383355356}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{67.32959617978368, 13.425233565448517}, 0.125905348724952], 
+     InsetBox["408", Offset[{2, 2}, {67.45550152850863, 13.55113891417347}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{19.742887087334786, 31.325243143240684}, 0.125905348724952], 
+     InsetBox["409", Offset[{2, 2}, {19.86879243605974, 31.451148491965636}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{9.269437669935886, 3.6386805641512314}, 0.125905348724952], 
+     InsetBox["410", Offset[{2, 2}, {9.395343018660839, 3.7645859128761834}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{55.3194289528668, 1.6516715018528494}, 0.125905348724952], 
+     InsetBox["411", Offset[{2, 2}, {55.44533430159175, 1.7775768505778013}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{43.677361672941345, 23.47451049094867}, 0.125905348724952], 
+     InsetBox["412", Offset[{2, 2}, {43.803267021666294, 23.600415839673623}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{1.0786885719912007, 9.691685880976047}, 0.125905348724952], 
+     InsetBox["413", Offset[{2, 2}, {1.2045939207161527, 9.817591229701}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.33493245005875, 1.5966117233636155}, 0.125905348724952], 
+     InsetBox["414", Offset[{2, 2}, {33.4608377987837, 1.7225170720885674}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.94066291865309, 31.063859460951797}, 0.125905348724952], 
+     InsetBox["415", Offset[{2, 2}, {16.06656826737804, 31.18976480967675}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.23592650807662, 45.529231384234194}, 0.125905348724952], 
+     InsetBox["416", Offset[{2, 2}, {23.361831856801572, 45.65513673295914}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{53.26153940003606, 1.1006571890695014}, 0.125905348724952], 
+     InsetBox["417", Offset[{2, 2}, {53.387444748761006, 1.2265625377944533}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.316112310106313, 5.947501629043137}, 0.125905348724952], 
+     InsetBox["418", Offset[{2, 2}, {23.442017658831265, 6.073406977768089}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{0.6936753250460868, 9.741019530901406}, 0.125905348724952], 
+     InsetBox["419", Offset[{2, 2}, {0.8195806737710387, 9.866924879626358}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.564240993949745, 47.244862319964625}, 0.125905348724952], 
+     InsetBox["420", Offset[{2, 2}, {20.690146342674698, 47.370767668689574}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{64.75206811465327, 23.972505815012404}, 0.125905348724952], 
+     InsetBox["421", Offset[{2, 2}, {64.87797346337823, 24.098411163737357}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{67.51889330735634, 14.7063852207797}, 0.125905348724952], 
+     InsetBox["422", Offset[{2, 2}, {67.64479865608129, 14.832290569504652}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{7.873351889269426, 5.024751589752338}, 0.125905348724952], 
+     InsetBox["423", Offset[{2, 2}, {7.999257237994378, 5.15065693847729}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{21.734575281085917, 42.82279176022101}, 0.125905348724952], 
+     InsetBox["424", Offset[{2, 2}, {21.86048062981087, 42.94869710894596}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.73631632539521, 13.135674565383491}, 0.125905348724952], 
+     InsetBox["425", Offset[{2, 2}, {66.86222167412016, 13.261579914108443}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{67.26605458179577, 14.74843455496197}, 0.125905348724952], 
+     InsetBox["426", Offset[{2, 2}, {67.39195993052073, 14.874339903686922}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.456591919293672, 47.81918481611233}, 0.125905348724952], 
+     InsetBox["427", Offset[{2, 2}, {20.582497268018624, 47.94509016483728}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{55.85322376533648, 1.0314334232084867}, 0.125905348724952], 
+     InsetBox["428", Offset[{2, 2}, {55.97912911406143, 1.1573387719334387}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{56.32869657129119, 0.6633555702441534}, 0.125905348724952], 
+     InsetBox["429", Offset[{2, 2}, {56.45460192001614, 0.7892609189691053}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.94788059611698, 37.98186050504333}, 0.125905348724952], 
+     InsetBox["430", Offset[{2, 2}, {43.07378594484193, 38.10776585376828}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{46.62490198113828, 32.211745878883725}, 0.125905348724952], 
+     InsetBox["431", Offset[{2, 2}, {46.75080732986323, 32.337651227608674}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{2.3262144182981785, 7.725967300953309}, 0.125905348724952], 
+     InsetBox["432", Offset[{2, 2}, {2.4521197670231305, 7.851872649678262}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{5.248454487248388, 8.894029243375488}, 0.125905348724952], 
+     InsetBox["433", Offset[{2, 2}, {5.37435983597334, 9.01993459210044}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{67.05310092381994, 12.82089303024668}, 0.125905348724952], 
+     InsetBox["434", Offset[{2, 2}, {67.1790062725449, 12.946798378971632}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.86688692515577, 19.12661949768413}, 0.125905348724952], 
+     InsetBox["435", Offset[{2, 2}, {66.99279227388072, 19.25252484640908}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{25.667044213719763, 5.1677316108310976}, 0.125905348724952], 
+     InsetBox["436", Offset[{2, 2}, {25.792949562444715, 5.29363695955605}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{2.525597074406157, 9.536407946005287}, 0.125905348724952], 
+     InsetBox["437", Offset[{2, 2}, {2.651502423131109, 9.66231329473024}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.093962037802832, 48.6164233044631}, 0.125905348724952], 
+     InsetBox["438", Offset[{2, 2}, {20.219867386527785, 48.742328653188046}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{28.21094825690012, 39.8859846470077}, 0.125905348724952], 
+     InsetBox["439", Offset[{2, 2}, {28.336853605625073, 40.01188999573265}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{43.147215295830975, 38.388072721938755}, 0.125905348724952], 
+     InsetBox["440", Offset[{2, 2}, {43.273120644555924, 38.513978070663704}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{54.49359379515667, 2.605532154859219}, 0.125905348724952], 
+     InsetBox["441", Offset[{2, 2}, {54.61949914388162, 2.731437503584171}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{53.305455756594085, 0.6993216466136509}, 0.125905348724952], 
+     InsetBox["442", Offset[{2, 2}, {53.431361105319034, 0.8252269953386029}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{67.888612636854, 13.189173283760987}, 0.125905348724952], 
+     InsetBox["443", Offset[{2, 2}, {68.01451798557896, 13.315078632485939}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{52.5515061853201, 5.116182748397383}, 0.125905348724952], 
+     InsetBox["444", Offset[{2, 2}, {52.67741153404505, 5.242088097122336}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{68.86815025098457, 24.088203258622617}, 0.125905348724952], 
+     InsetBox["445", Offset[{2, 2}, {68.99405559970953, 24.21410860734757}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{69.3059741130665, 24.159817247109864}, 0.125905348724952], 
+     InsetBox["446", Offset[{2, 2}, {69.43187946179145, 24.285722595834816}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{33.513512491041936, 1.6728478831162157}, 0.125905348724952], 
+     InsetBox["447", Offset[{2, 2}, {33.639417839766885, 1.7987532318411676}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{19.75857113249612, 49.33608289567067}, 0.125905348724952], 
+     InsetBox["448", Offset[{2, 2}, {19.88447648122107, 49.46198824439562}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{1.7915884357675864, 7.41352453395494}, 0.125905348724952], 
+     InsetBox["449", Offset[{2, 2}, {1.9174937844925384, 7.539429882679892}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{1.3942637789323342, 7.20667646435688}, 0.125905348724952], 
+     InsetBox["450", Offset[{2, 2}, {1.5201691276572862, 7.332581813081832}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{56.676460817481995, 0.4053848268324991}, 0.125905348724952], 
+     InsetBox["451", Offset[{2, 2}, {56.802366166206944, 0.5312901755574511}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{56.01809173605287, 0.6511334448661401}, 0.125905348724952], 
+     InsetBox["452", Offset[{2, 2}, {56.143997084777816, 0.7770387935910921}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{53.380876754338914, 1.32290674074493}, 0.125905348724952], 
+     InsetBox["453", Offset[{2, 2}, {53.50678210306386, 1.448812089469882}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.792824737055625, 35.228996124262125}, 0.125905348724952], 
+     InsetBox["454", Offset[{2, 2}, {40.918730085780574, 35.35490147298707}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.636167891760667, 44.45451615787521}, 0.125905348724952], 
+     InsetBox["455", Offset[{2, 2}, {22.76207324048562, 44.58042150660016}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{42.39591410849292, 37.83763493494261}, 0.125905348724952], 
+     InsetBox["456", Offset[{2, 2}, {42.521819457217866, 37.96354028366756}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{2.6377322326585357, 9.877998785895176}, 0.125905348724952], 
+     InsetBox["457", Offset[{2, 2}, {2.7636375813834877, 10.003904134620129}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.90287012890645, 5.989568619832818}, 0.125905348724952], 
+     InsetBox["458", Offset[{2, 2}, {21.028775477631402, 6.115473968557771}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{21.81550399886806, 42.2845882892574}, 0.125905348724952], 
+     InsetBox["459", Offset[{2, 2}, {21.941409347593012, 42.41049363798235}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.87412873700179, 46.32668389447205}, 0.125905348724952], 
+     InsetBox["460", Offset[{2, 2}, {23.000034085726742, 46.452589243197}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{67.97996973866105, 14.700717729508032}, 0.125905348724952], 
+     InsetBox["461", Offset[{2, 2}, {68.10587508738601, 14.826623078232984}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{18.307813879668945, 5.159136562822969}, 0.125905348724952], 
+     InsetBox["462", Offset[{2, 2}, {18.433719228393898, 5.285041911547921}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{22.100666261583708, 5.935218475323234}, 0.125905348724952], 
+     InsetBox["463", Offset[{2, 2}, {22.22657161030866, 6.061123824048186}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.295923200843422, 47.51953598900437}, 0.125905348724952], 
+     InsetBox["464", Offset[{2, 2}, {20.421828549568374, 47.645441337729316}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{25.43502047403327, 5.220289044729233}, 0.125905348724952], 
+     InsetBox["465", Offset[{2, 2}, {25.56092582275822, 5.346194393454185}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{8.536296716851712, 2.058902426458058}, 0.125905348724952], 
+     InsetBox["466", Offset[{2, 2}, {8.662202065576665, 2.18480777518301}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{21.445299986680368, 42.476004361166424}, 0.125905348724952], 
+     InsetBox["467", Offset[{2, 2}, {21.57120533540532, 42.60190970989137}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{45.21184499795889, 26.50493098577894}, 0.125905348724952], 
+     InsetBox["468", Offset[{2, 2}, {45.33775034668384, 26.630836334503893}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{8.26145405751896, 5.41477048612067}, 0.125905348724952], 
+     InsetBox["469", Offset[{2, 2}, {8.387359406243913, 5.540675834845622}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{25.655511552361844, 5.898991031158543}, 0.125905348724952], 
+     InsetBox["470", Offset[{2, 2}, {25.781416901086796, 6.024896379883495}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{47.80803720724933, 32.214827283250145}, 0.125905348724952], 
+     InsetBox["471", Offset[{2, 2}, {47.933942555974276, 32.340732631975094}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{8.105286020271159, 1.4493943063454005}, 0.125905348724952], 
+     InsetBox["472", Offset[{2, 2}, {8.231191368996111, 1.5752996550703524}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{1.9877447945206228, 7.566769464261281}, 0.125905348724952], 
+     InsetBox["473", Offset[{2, 2}, {2.1136501432455748, 7.692674812986233}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{20.288003251602305, 48.18254900323398}, 0.125905348724952], 
+     InsetBox["474", Offset[{2, 2}, {20.413908600327257, 48.30845435195893}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{19.513854633442207, 49.8968421816635}, 0.125905348724952], 
+     InsetBox["475", Offset[{2, 2}, {19.63975998216716, 50.02274753038845}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{68.53865141019884, 23.953109109755548}, 0.125905348724952], 
+     InsetBox["476", Offset[{2, 2}, {68.6645567589238, 24.0790144584805}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{68.30053571000951, 13.020224623783838}, 0.125905348724952], 
+     InsetBox["477", Offset[{2, 2}, {68.42644105873447, 13.14612997250879}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{0.4482794585400782, 9.662749880102005}, 0.125905348724952], 
+     InsetBox["478", Offset[{2, 2}, {0.5741848072650302, 9.788655228826958}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{23.17440360891023, 5.627284615669664}, 0.125905348724952], 
+     InsetBox["479", Offset[{2, 2}, {23.30030895763518, 5.7531899643946165}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{69.23098452048632, 24.35616550300984}, 0.125905348724952], 
+     InsetBox["480", Offset[{2, 2}, {69.35688986921127, 24.482070851734793}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{7.759697821362558, 0.9565619679096926}, 0.125905348724952], 
+     InsetBox["481", Offset[{2, 2}, {7.88560317008751, 1.0824673166346446}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.238812267798291, 4.259154281306779}, 0.125905348724952], 
+     InsetBox["482", Offset[{2, 2}, {15.364717616523244, 4.385059630031732}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{63.258631510256606, 14.743213612940572}, 0.125905348724952], 
+     InsetBox["483", Offset[{2, 2}, {63.384536858981555, 14.869118961665524}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{15.12383372645089, 3.886566544336784}, 0.125905348724952], 
+     InsetBox["484", Offset[{2, 2}, {15.249739075175842, 4.012471893061736}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{7.505140556994711, 0.6064530940978798}, 0.125905348724952], 
+     InsetBox["485", Offset[{2, 2}, {7.631045905719663, 0.7323584428228318}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{18.243000652880248, 4.792568755198282}, 0.125905348724952], 
+     InsetBox["486", Offset[{2, 2}, {18.3689060016052, 4.918474103923234}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{49.78140609225543, 28.06837899345249}, 0.125905348724952], 
+     InsetBox["487", Offset[{2, 2}, {49.90731144098038, 28.194284342177443}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{19.5376505296341, 31.617183226658007}, 0.125905348724952], 
+     InsetBox["488", Offset[{2, 2}, {19.663555878359052, 31.74308857538296}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{55.91657083011988, 1.8263066626609863}, 0.125905348724952], 
+     InsetBox["489", Offset[{2, 2}, {56.04247617884483, 1.9522120113859383}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{19.572679465814247, 49.65698442404606}, 0.125905348724952], 
+     InsetBox["490", Offset[{2, 2}, {19.6985848145392, 49.78288977277101}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{56.29859174032883, 1.7302588694586944}, 0.125905348724952], 
+     InsetBox["491", Offset[{2, 2}, {56.42449708905378, 1.8561642181836464}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{32.79375754048705, 0.}, 0.125905348724952], 
+     InsetBox["492", Offset[{2, 2}, {32.919662889212, 0.125905348724952}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{0., 9.647454309908367}, 0.125905348724952], 
+     InsetBox["493", Offset[{2, 2}, {0.125905348724952, 9.77335965863332}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{2.2836442407548745, 10.061144414209979}, 0.125905348724952], 
+     InsetBox["494", Offset[{2, 2}, {2.4095495894798264, 10.187049762934931}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{7.87447936172034, 1.1617520306965368}, 0.125905348724952], 
+     InsetBox["495", Offset[{2, 2}, {8.000384710445292, 1.2876573794214887}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{19.34005091315769, 50.29210539827108}, 0.125905348724952], 
+     InsetBox["496", Offset[{2, 2}, {19.465956261882642, 50.41801074699603}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{66.31088575324233, 17.945763547372643}, 0.125905348724952], 
+     InsetBox["497", Offset[{2, 2}, {66.43679110196729, 18.071668896097595}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{41.999548574495066, 36.787130182941226}, 0.125905348724952], 
+     InsetBox["498", Offset[{2, 2}, {42.125453923220014, 36.913035531666175}],
+       ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}, {
+     DiskBox[{40.51754996356537, 9.402323412383943}, 0.125905348724952], 
+     InsetBox["499", Offset[{2, 2}, {40.64345531229032, 9.528228761108895}], 
+      ImageScaled[{0, 0}],
+      BaseStyle->"Graphics"]}}},
+  FormatType->TraditionalForm,
+  FrameTicks->None,
+  ImageSize->{1120.0000000000002`, Automatic}]], "Output",
+ CellChangeTimes->{3.7968514448316174`*^9},
+ CellLabel->
+  "Out[113]=",ExpressionUUID->"e93d9084-da9e-4c3a-9dcf-92d7090a2f88"]
+}, Open  ]],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"dist", "=", 
+  RowBox[{"shortestPath", "=", 
    RowBox[{"FindShortestPath", "[", 
-    RowBox[{"%17", ",", "All", ",", "All"}], "]"}]}], ";"}]], "Input",
+    RowBox[{"dungeon", ",", "All", ",", "All"}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{
-  3.796849788982034*^9},ExpressionUUID->"6d371e60-5fd4-4a0f-9c4e-\
-88402fcecd8a"],
+  3.796849788982034*^9, {3.7968517315232005`*^9, 3.796851732672138*^9}, {
+   3.7968521712559924`*^9, 3.7968521729883595`*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"6d371e60-5fd4-4a0f-9c4e-88402fcecd8a"],
 
 Cell[BoxData[
- RowBox[{"distanceMatrix", "=", 
-  RowBox[{"GraphDistanceMatrix", "[", "dungeon", "]"}]}]], "Input",
+ RowBox[{
+  RowBox[{"distanceMatrix", "=", 
+   RowBox[{"GraphDistanceMatrix", "[", "dungeon", "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.796849761797762*^9, 3.7968497884604273`*^9}, {
-   3.796849900306013*^9, 3.7968499031393948`*^9}, 
-   3.796850849385894*^9},ExpressionUUID->"f6f1e421-8b04-4cac-b796-\
-2f2ef0313524"],
+   3.796849900306013*^9, 3.7968499031393948`*^9}, 3.796850849385894*^9, 
+   3.7968517387927217`*^9},
+ CellLabel->"In[27]:=",ExpressionUUID->"f6f1e421-8b04-4cac-b796-2f2ef0313524"],
 
 Cell[BoxData[
  RowBox[{
@@ -564,7 +2771,7 @@ Cell[BoxData[
    RowBox[{"WeightedAdjacencyGraph", "[", "distanceMatrix", "]"}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.796849807308753*^9, 3.7968498518675556`*^9}},
- CellLabel->"In[89]:=",ExpressionUUID->"2c8d3ac5-811a-4763-bf26-f572e4768c3e"],
+ CellLabel->"In[28]:=",ExpressionUUID->"2c8d3ac5-811a-4763-bf26-f572e4768c3e"],
 
 Cell[BoxData[
  RowBox[{
@@ -576,9 +2783,8 @@ Cell[BoxData[
      RowBox[{"i", "+", "1"}], ",", 
      RowBox[{"j", "+", "1"}]}], "]"}], "-", "1"}]}]], "Input",
  CellChangeTimes->{{3.7968498536677685`*^9, 3.796849870355095*^9}, {
-  3.796849920316435*^9, 
-  3.796849970694278*^9}},ExpressionUUID->"dec6a37d-5335-41e0-8543-\
-1be2175cf4e3"],
+  3.796849920316435*^9, 3.796849970694278*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"dec6a37d-5335-41e0-8543-1be2175cf4e3"],
 
 Cell[BoxData[{
  RowBox[{
@@ -588,7 +2794,7 @@ Cell[BoxData[{
   RowBox[{"Flatten", "[", 
    RowBox[{"{", 
     RowBox[{
-     RowBox[{"dist", "[", 
+     RowBox[{"shortestPath", "[", 
       RowBox[{"x", ",", "y"}], "]"}], ",", 
      RowBox[{"Rest", "[", 
       RowBox[{"fullPathFromHam", "[", 
@@ -605,7 +2811,8 @@ Cell[BoxData[{
   RowBox[{"fullPathFromHam", "[", 
    RowBox[{"hamPath", "[", 
     RowBox[{"i", ",", "j"}], "]"}], "]"}]}]}], "Input",
- CellLabel->"In[91]:=",ExpressionUUID->"57fc354c-9519-48d4-8a51-7a34184fb887"],
+ CellChangeTimes->{3.7968521829667163`*^9},
+ CellLabel->"In[30]:=",ExpressionUUID->"57fc354c-9519-48d4-8a51-7a34184fb887"],
 
 Cell[CellGroupData[{
 
@@ -636,8 +2843,7 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"Length", "@", "%"}], "-", "1"}]}], "Input",
  CellChangeTimes->{{3.796851056779704*^9, 3.7968510922029514`*^9}},
- CellLabel->
-  "In[103]:=",ExpressionUUID->"707b7b76-1e03-4e7b-9574-11dada955b66"],
+ CellLabel->"In[33]:=",ExpressionUUID->"707b7b76-1e03-4e7b-9574-11dada955b66"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -792,18 +2998,18 @@ Cell[BoxData[
    ",", "464", ",", "420", ",", "401", ",", "427", ",", "474", ",", "427", 
    ",", "438", ",", "448", ",", "490", ",", "448", ",", "475", ",", "496"}], 
   "}"}]], "Output",
- CellChangeTimes->{3.7968510619438915`*^9, 3.7968510937358403`*^9},
- CellLabel->
-  "Out[103]=",ExpressionUUID->"12d7581f-204b-4a7f-b629-557460fb41aa"],
+ CellChangeTimes->{3.7968510619438915`*^9, 3.7968510937358403`*^9, 
+  3.796852215275039*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"d6ccfe5a-7448-4ef3-ae00-bd3ba0b31d6a"],
 
 Cell[BoxData["917"], "Output",
- CellChangeTimes->{3.7968510619438915`*^9, 3.7968510937408257`*^9},
- CellLabel->
-  "Out[104]=",ExpressionUUID->"ea2ed3db-64b1-4372-a32b-0250766748b7"]
+ CellChangeTimes->{3.7968510619438915`*^9, 3.7968510937358403`*^9, 
+  3.7968522152800245`*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"46447cc9-1d44-4f78-9628-efdf1368dbff"]
 }, Open  ]]
 },
-WindowSize->{1920, 1037},
-WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+WindowSize->{1904, 1029},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 Magnification:>1.1 Inherited,
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 14, 2020)",
 StyleDefinitions->"Default.nb",
@@ -820,21 +3026,24 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 29212, 513, 605, "Input",ExpressionUUID->"77336712-4a07-4715-b064-bb67b1665537"],
-Cell[29773, 535, 269, 6, 32, "Input",ExpressionUUID->"1e967cf6-ce8e-4329-bee9-b8b874eb2308"],
-Cell[30045, 543, 257, 7, 32, "Input",ExpressionUUID->"6d371e60-5fd4-4a0f-9c4e-88402fcecd8a"],
-Cell[30305, 552, 317, 6, 32, "Input",ExpressionUUID->"f6f1e421-8b04-4cac-b796-2f2ef0313524"],
-Cell[30625, 560, 294, 6, 32, "Input",ExpressionUUID->"2c8d3ac5-811a-4763-bf26-f572e4768c3e"],
-Cell[30922, 568, 458, 12, 32, "Input",ExpressionUUID->"dec6a37d-5335-41e0-8543-1be2175cf4e3"],
-Cell[31383, 582, 879, 25, 77, "Input",ExpressionUUID->"57fc354c-9519-48d4-8a51-7a34184fb887"],
+Cell[558, 20, 29235, 514, 605, "Input",ExpressionUUID->"77336712-4a07-4715-b064-bb67b1665537"],
 Cell[CellGroupData[{
-Cell[32287, 611, 434, 11, 32, "Input",ExpressionUUID->"0000a838-a573-4c27-aec7-7036b636187d"],
-Cell[32724, 624, 173, 3, 36, "Output",ExpressionUUID->"cd15166c-e657-4123-b19b-b0fc6ea9ac00"]
+Cell[29818, 538, 292, 6, 32, "Input",ExpressionUUID->"1e967cf6-ce8e-4329-bee9-b8b874eb2308"],
+Cell[30113, 546, 118455, 2199, 926, "Output",ExpressionUUID->"e93d9084-da9e-4c3a-9dcf-92d7090a2f88"]
+}, Open  ]],
+Cell[148583, 2748, 393, 8, 32, "Input",ExpressionUUID->"6d371e60-5fd4-4a0f-9c4e-88402fcecd8a"],
+Cell[148979, 2758, 382, 7, 32, "Input",ExpressionUUID->"f6f1e421-8b04-4cac-b796-2f2ef0313524"],
+Cell[149364, 2767, 294, 6, 32, "Input",ExpressionUUID->"2c8d3ac5-811a-4763-bf26-f572e4768c3e"],
+Cell[149661, 2775, 477, 11, 32, "Input",ExpressionUUID->"dec6a37d-5335-41e0-8543-1be2175cf4e3"],
+Cell[150141, 2788, 931, 26, 77, "Input",ExpressionUUID->"57fc354c-9519-48d4-8a51-7a34184fb887"],
+Cell[CellGroupData[{
+Cell[151097, 2818, 434, 11, 32, "Input",ExpressionUUID->"0000a838-a573-4c27-aec7-7036b636187d"],
+Cell[151534, 2831, 173, 3, 36, "Output",ExpressionUUID->"cd15166c-e657-4123-b19b-b0fc6ea9ac00"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32934, 632, 317, 7, 55, "Input",ExpressionUUID->"707b7b76-1e03-4e7b-9574-11dada955b66"],
-Cell[33254, 641, 11601, 155, 455, "Output",ExpressionUUID->"12d7581f-204b-4a7f-b629-557460fb41aa"],
-Cell[44858, 798, 181, 3, 36, "Output",ExpressionUUID->"ea2ed3db-64b1-4372-a32b-0250766748b7"]
+Cell[151744, 2839, 313, 6, 55, "Input",ExpressionUUID->"707b7b76-1e03-4e7b-9574-11dada955b66"],
+Cell[152060, 2847, 11622, 155, 455, "Output",ExpressionUUID->"d6ccfe5a-7448-4ef3-ae00-bd3ba0b31d6a"],
+Cell[163685, 3004, 204, 3, 56, "Output",ExpressionUUID->"46447cc9-1d44-4f78-9628-efdf1368dbff"]
 }, Open  ]]
 }
 ]
