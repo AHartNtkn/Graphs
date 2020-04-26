@@ -57,3 +57,7 @@ class Room:
             return None
     def get_coords(self):
         return [self.x, self.y]
+    def get_exit_rooms(self):
+        exit_rooms = [self.n_to, self.s_to, self.e_to, self.w_to]
+        exit_rooms = [ e for e in exit_rooms if e is not None ]
+        return exit_rooms
