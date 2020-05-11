@@ -1,5 +1,3 @@
-from kanren import run, eq, var, lall, lany, Relation, fact, facts
-
 class Graph:
 
     """Represent a graph as a dictionary of vertices mapping labels to edges."""
@@ -115,9 +113,9 @@ def earliest_ancestor(ancestors, starting_node):
     while stack != []:
         node = stack.pop()
         new_nodes = list(a_graph.get_neighbors(node))
-        # Make sure lowest number ancestor is returned first.
         stack += new_nodes
         for n in new_nodes:
             a_tree.add_node(n, node)
 
+    # Make sure lowest number ancestor is returned first.
     return min(a_tree.deepest_nodes())
