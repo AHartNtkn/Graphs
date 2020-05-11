@@ -2,10 +2,27 @@
 Simple graph implementation
 """
 from util import Stack, Queue  # These may come in handy
+import copy
 
 def print_list(l):
     for i in l:
         print(i)
+
+def riffle(ll):
+    """ Take a list of lists and riffle them """
+    ret = []
+
+    maxlen = max(map(len, ll))
+
+    i = 0
+    
+    while i < maxlen:
+        for l in ll:
+            if len(l) > i:
+                ret.append(l[i])
+        i += 1
+
+    return ret
 
 class Graph:
 
@@ -56,6 +73,55 @@ class Graph:
         print_list(seen)
         return seen
 
+    def bft_recursive(self, starting_vertex):
+        """
+        Print each vertex in breadth-first order
+        beginning from starting_vertex.
+
+        This should be done using recursion.
+        """
+        def remove_from_graph(node, graph):
+            if node in graph:
+                del graph[node]
+                for i in graph:
+                    if node in graph[i]:
+                        graph[i].remove(node)
+            
+            return graph
+
+        def bft(queue, graph):
+            if queue.size() == 0:
+                return []
+
+            node = queue.dequeue()
+
+            if node in graph:
+                # Get node context
+                neigh = graph[node]
+                if node in neigh:
+                    neigh.remove(node)
+                neigh = list(neigh)
+
+                # Get subgraph without node
+                g = remove_from_graph(node, graph)
+
+                # Add neighborhood to the end of the queue,
+                # so it's searched after those currently queued.
+                queue.enqueue_list(neigh)
+
+                # Prepend node to front of search.
+                return [node] + bft(queue, g)
+            else:
+                return bft(queue, graph)
+        
+        starting_queue = Queue()
+        starting_queue.enqueue(starting_vertex)
+        out = bft(starting_queue, self.vertices.copy())
+
+        print_list(out)
+
+        return out
+
     def dft(self, starting_vertex):
         """
         Print each vertex in depth-first order
@@ -81,17 +147,6 @@ class Graph:
 
         This should be done using recursion.
         """
-        # if need_to_visit is None:
-            # need_to_visit = set(self.vertices.keys())
-
-        # if current_vertex in need_to_visit:
-            # next_vertices = self.get_neighbors(current_vertex)
-            # need_to_visit.remove(current_vertex)
-        # else:
-            # return []
-
-        # return [current_vertex] + [ n for v in next_vertices
-                                       # for n in self.dft_recursive(v, need_to_visit) ]
 
         def remove_from_graph(node, graph):
             if node in graph:
@@ -102,19 +157,34 @@ class Graph:
             
             return graph
 
-        def dft(nodes, graph):
-            if nodes == []:
+        def dft(stack, graph):
+            if stack.size() == 0:
                 return []
-            elif nodes[0] in graph:
-                neigh = graph[nodes[0]]
-                if nodes[0] in neigh:
-                    neigh.remove(nodes[0])
-                g = remove_from_graph(nodes[0], graph)
-                return [nodes[0]] + dft(list(neigh) + nodes[1:], g)
+
+            node = stack.pop()
+
+            if node in graph:
+                # Get node context
+                neigh = graph[node]
+                if node in neigh:
+                    neigh.remove(node)
+                neigh = list(neigh)
+                
+                # Get subgraph without node
+                g = remove_from_graph(node, graph)
+
+                # Prepend neighborhood to stack so it's searched
+                # before anything else.
+                stack.push_list(neigh)
+
+                # Prepend node to front of search.
+                return [node] + dft(stack, g)
             else:
-                return dft(nodes[1:], graph)
+                return dft(stack, graph)
         
-        out = dft([current_vertex], self.vertices.copy())
+        starting_stack = Stack()
+        starting_stack.push(current_vertex)
+        out = dft(starting_stack, self.vertices.copy())
 
         print_list(out)
 
@@ -140,6 +210,55 @@ class Graph:
             return None
 
         return [ p for p in potential_paths if p[-1] == destination_vertex ][0]
+
+    def bfs_recursive(self, starting_vertex, destination_vertex):
+        """
+        Return a list containing the shortest path from
+        starting_vertex to destination_vertex in
+        breath-first order.
+
+        This should be done using recursion.
+        """
+        def remove_from_graph(node, graph):
+            graphp = copy.deepcopy(graph)
+            if node in graphp:
+                del graphp[node]
+                for i in graphp:
+                    if node in graphp[i]:
+                        graphp[i].remove(node)
+            
+            return graphp
+
+        def bfs(options, goal):
+            """ Options consists of pairs of paths with remaining graphs """
+
+            # If there are no options left, fail.
+            if options == []:
+                return None
+
+            success_options = [ p for p, g in options if p[-1] == goal ]
+
+            # If we've found a path, return it.
+            if success_options != []:
+                return success_options[0]
+
+            new_options = []
+            for path, graph in options:
+                node = path[-1]
+
+                # Get context of path ending node.
+                neigh = graph[node]
+                if node in neigh:
+                    neigh.remove(node)
+                neigh = list(neigh)
+
+                # For each thing in the neighborhood, create a new,
+                # optional path with the remaining, unexplored graph.
+                new_options += [ (path + [n], remove_from_graph(node, graph)) for n in neigh ]
+
+            return bfs(new_options, goal)
+        
+        return bfs([([starting_vertex], self.vertices.copy())], destination_vertex)
 
     def dfs(self, starting_vertex, destination_vertex):
         """
@@ -175,7 +294,7 @@ class Graph:
         This should be done using recursion.
         """
         def remove_from_graph(node, graph):
-            graphp = graph.copy()
+            graphp = copy.deepcopy(graph)
             if node in graphp:
                 del graphp[node]
                 for i in graphp:
@@ -193,8 +312,10 @@ class Graph:
                 if node in neigh:
                     neigh.remove(node)
                 neigh = list(neigh)
+
+                # If we've reached a dead-end, fail.
                 if neigh == []:
-                    return []
+                    return None
 
                 # Get smaller graph
                 g = remove_from_graph(node, graph)
@@ -202,13 +323,13 @@ class Graph:
                 # Get possible search branches
                 for n in neigh:
                     br = dfs(n, goal, g)
-                    if br != []:
+                    if br != None:
                         return [node] + br
 
                 # Search failed.
-                return []
+                return None
             else:
-                return []
+                return None
         
         return dfs(current_vertex, destination_vertex, self.vertices.copy())
         
